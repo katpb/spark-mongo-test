@@ -1,0 +1,111 @@
+	<trans type="network sale" recalled="false">
+		<trHeader>
+			<termMsgSN type="FINANCIAL" term="102">39976</termMsgSN>
+			<trTickNum>
+				<posNum>102</posNum>
+				<trSeq>1029979</trSeq>
+			</trTickNum>
+			<trUniqueSN>218271</trUniqueSN>
+			<period level="0" seq="5" name="HOUR"/>
+			<period level="1" seq="135" name="SHIFT"/>
+			<period level="2" seq="133" name="DAILY"/>
+			<date>2018-11-28T05:34:57-05:00</date>
+			<duration>41</duration>
+			<till>1</till>
+			<cashier sysid="2" empNum="101181" posNum="102" period="47" drawer="1">Crystal</cashier>
+			<storeNumber>0287</storeNumber>
+		</trHeader>
+		<trValue>
+			<trTotNoTax>20.77</trTotNoTax>
+			<trTotWTax>20.77</trTotWTax>
+			<trTotTax>0.00</trTotTax>
+			<trTax/>
+			<trCurrTot locale="USD">20.77</trCurrTot>
+			<trSTotalizer>20.77</trSTotalizer>
+			<trGTotalizer>20.77</trGTotalizer>
+			<custDOB>021377</custDOB>
+		</trValue>
+		<trLines>
+			<trLine type="plu">
+				<trlTaxes/>
+				<trlFlags>
+					<trlPLU/>
+					<trlUpdPluCust/>
+					<trlUpdDepCust/>
+					<trlCatCust/>
+					<trlFuelSale/>
+				</trlFlags>
+				<trlDept number="121" type="norm">HBW</trlDept>
+				<trlNetwCode>400</trlNetwCode>
+				<trlQty>1</trlQty>
+				<trlSign>1.00</trlSign>
+				<trlSellUnit>1.000</trlSellUnit>
+				<trlUnitPrice>3.49</trlUnitPrice>
+				<trlLineTot>3.49</trlLineTot>
+				<trlDesc>5HR GRAPE</trlDesc>
+				<trlUPC>00719410200015</trlUPC>
+				<trlModifier>000</trlModifier>
+				<trlUPCEntry type="scanned"/>
+			</trLine>
+			<trLine type="plu">
+				<trlTaxes/>
+				<trlFlags>
+					<trlBdayVerif/>
+					<trlPLU/>
+					<trlUpdPluCust/>
+					<trlUpdDepCust/>
+					<trlFuelSale/>
+				</trlFlags>
+				<trlDept number="1021" type="norm">CIG PACKS</trlDept>
+				<trlNetwCode>411</trlNetwCode>
+				<trlQty>1</trlQty>
+				<trlSign>1.00</trlSign>
+				<trlSellUnit>1.000</trlSellUnit>
+				<trlUnitPrice>7.28</trlUnitPrice>
+				<trlLineTot>7.28</trlLineTot>
+				<trlDesc>MARL GLD MTL BX FSC</trlDesc>
+				<trlUPC>00028200004017</trlUPC>
+				<trlModifier>000</trlModifier>
+				<trlUPCEntry type="scanned"/>
+			</trLine>
+			<trLine type="preFuel">
+				<trlTaxes/>
+				<trlFlags>
+					<trlUpdDepCust/>
+					<trlCatCust/>
+					<trlFuelSale/>
+				</trlFlags>
+				<trlDept number="9999" type="fuel">FUEL DEPOSIT</trlDept>
+				<trlCat number="9999">FUEL DEPOSIT</trlCat>
+				<trlNetwCode>0</trlNetwCode>
+				<trlQty>1</trlQty>
+				<trlSign>1.00</trlSign>
+				<trlUnitPrice>0.00</trlUnitPrice>
+				<trlLineTot>10.00</trlLineTot>
+				<trlDesc>PREPAY CA #07</trlDesc>
+			</trLine>
+		</trLines>
+		<trPaylines>
+			<trPayline type="sale" sysid="1" locale="DOLLAR" pending="true">
+				<trpPaycode mop="8" cat="2" nacstendercode="generic" nacstendersubcode="generic">DEBIT</trpPaycode>
+				<trpAmt>20.77</trpAmt>
+				<trpCardInfo>
+					<trpcAccount>458643FFFFFF3259</trpcAccount>
+					<trpcCCName sysid="0">DEBIT</trpcCCName>
+					<trpcHostID>buypass</trpcHostID>
+					<trpcAuthCode>971639</trpcAuthCode>
+					<trpcAuthSrc/>
+					<trpcTicket>971639</trpcTicket>
+					<trpcEntryMeth>Swipe</trpcEntryMeth>
+					<trpcBatchNr>133</trpcBatchNr>
+					<trpcSeqNr>1057280</trpcSeqNr>
+					<trpcAuthDateTime>2018-11-28T05:34:56-05:00</trpcAuthDateTime>
+					<trpcRefNum>1021537685903567</trpcRefNum>
+					<trpcMerchInfo>
+						<trpcmMerchID>8339525</trpcmMerchID>
+						<trpcmTermID>8339525</trpcmTermID>
+					</trpcMerchInfo>
+				</trpCardInfo>
+			</trPayline>
+		</trPaylines>
+	</trans>
