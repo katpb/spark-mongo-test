@@ -34,10 +34,10 @@ public final class TxnDBReaderAndWriter {
 	    implicitDS.select("trans.trHeader.trUniqueSN").show();
 	    
 	    
-	    implicitDS.filter(col("trans.trValue.trTotWTax").lt("5.00")).select("trans.trHeader.trUniqueSN").show();
+	    implicitDS.filter(col("trans.trValue.trTotWTax").between("0.01", "2.00")).select("trans.trHeader.trUniqueSN").show();
 		
 	    implicitDS.createOrReplaceTempView("transactions");
-	    Dataset<Row> sum = sparkSession.sql("SELECT sum(trans.trValue.trTotWTax) FROM transactions");
+	    Dataset<Row> sum = sparkSession.sql("SELECT sum(trans.trValue.trTotWTax) FROM transactions where trans.trHeader.trUniqueSN = 218175");
 	  //  Dataset<Row> trGt5 = sparkSession.sql("SELECT trans.trHeader.trUniqueSN FROM transactions where trans.trValue.trTotWTax=  5.00");
 
 		//MongoSpark.save(rdd.)
