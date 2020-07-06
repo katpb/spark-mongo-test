@@ -1,3 +1,4 @@
+package com.verifone.ptc;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -12,13 +13,13 @@ import com.mongodb.client.MongoDatabase;
 
 public class TxnXMLToJSONConverter {
 
-	public static int PRETTY_PRINT_INDENT_FACTOR = 4;
+	public static int PRETTY_PRINT_INDENT_FACTOR = 8;
 	public static String TEST_XML_STRING = null;
 
 	public static void main(String[] args) throws IOException {
 		File tlogDir = new File("CadenceTransactions");
 		if(tlogDir.isDirectory()) {
-			for (int i = 0; i < 10; i++) {
+			for (int i = 0; i < 1; i++) {
 				for (String fileName : tlogDir.list()) {
 					File file = new File(tlogDir.getName() + "/" + fileName);
 					FileInputStream fin = new FileInputStream(file);
