@@ -1,0 +1,106 @@
+<trans type="sale" recalled="false">
+		<trHeader>
+			<termMsgSN type="FINANCIAL" term="102">39921</termMsgSN>
+			<trTickNum>
+				<posNum>102</posNum>
+				<trSeq>1029924</trSeq>
+			</trTickNum>
+			<trUniqueSN>218175</trUniqueSN>
+			<period level="0" seq="3" name="HOUR"/>
+			<period level="1" seq="135" name="SHIFT"/>
+			<period level="2" seq="133" name="DAILY"/>
+			<date>2018-11-28T03:37:30-05:00</date>
+			<duration>10</duration>
+			<till>1</till>
+			<cashier sysid="4" empNum="143805" posNum="102" period="89" drawer="1">Jerrell</cashier>
+			<storeNumber>0287</storeNumber>
+		</trHeader>
+		<trValue>
+			<trTotNoTax>6.63</trTotNoTax>
+			<trTotWTax>6.63</trTotWTax>
+			<trTotTax>0.00</trTotTax>
+			<trTax/>
+			<trCurrTot locale="USD">6.63</trCurrTot>
+			<trSTotalizer>6.63</trSTotalizer>
+			<trGTotalizer>6.63</trGTotalizer>
+			<trFstmp>
+				<trFstmpTot>3.34</trFstmpTot>
+				<trFstmpTax>0.00</trFstmpTax>
+				<trFstmpChg>0.00</trFstmpChg>
+				<trFstmpTnd>0.00</trFstmpTnd>
+			</trFstmp>
+			<custDOB>111668</custDOB>
+		</trValue>
+		<trLines>
+			<trLine type="plu">
+				<trlTaxes/>
+				<trlFlags>
+					<trlBdayVerif/>
+					<trlPLU/>
+					<trlUpdPluCust/>
+					<trlUpdDepCust/>
+					<trlCatCust/>
+				</trlFlags>
+				<trlDept number="121" type="norm">HBW</trlDept>
+				<trlNetwCode>400</trlNetwCode>
+				<trlQty>1</trlQty>
+				<trlSign>1.00</trlSign>
+				<trlSellUnit>1.000</trlSellUnit>
+				<trlUnitPrice>3.29</trlUnitPrice>
+				<trlLineTot>3.29</trlLineTot>
+				<trlDesc>LIL D DYQL SEVERE 4CT</trlDesc>
+				<trlUPC>00366715970428</trlUPC>
+				<trlModifier>000</trlModifier>
+				<trlUPCEntry type="scanned"/>
+			</trLine>
+			<trLine type="plu">
+				<trlTaxes/>
+				<trlFlags>
+					<trlFstmp/>
+					<trlPLU/>
+					<trlUpdPluCust/>
+					<trlUpdDepCust/>
+				</trlFlags>
+				<trlDept number="107" type="norm">PACK BEV</trlDept>
+				<trlNetwCode>400</trlNetwCode>
+				<trlQty>1</trlQty>
+				<trlSign>1.00</trlSign>
+				<trlSellUnit>1.000</trlSellUnit>
+				<trlUnitPrice>1.75</trlUnitPrice>
+				<trlLineTot>1.75</trlLineTot>
+				<trlDesc>PEPSI</trlDesc>
+				<trlUPC>00012000001291</trlUPC>
+				<trlModifier>000</trlModifier>
+				<trlUPCEntry type="scanned"/>
+			</trLine>
+			<trLine type="plu">
+				<trlTaxes/>
+				<trlFlags>
+					<trlFstmp/>
+					<trlPLU/>
+					<trlUpdPluCust/>
+				</trlFlags>
+				<trlDept number="107" type="norm">PACK BEV</trlDept>
+				<trlNetwCode>400</trlNetwCode>
+				<trlQty>1</trlQty>
+				<trlSign>1.00</trlSign>
+				<trlSellUnit>1.000</trlSellUnit>
+				<trlUnitPrice>1.59</trlUnitPrice>
+				<trlLineTot>1.59</trlLineTot>
+				<trlDesc>SUNNY D ORG</trlDesc>
+				<trlUPC>00050200560002</trlUPC>
+				<trlModifier>000</trlModifier>
+				<trlUPCEntry type="scanned"/>
+			</trLine>
+		</trLines>
+		<trPaylines>
+			<trPayline type="sale" sysid="1" locale="DOLLAR">
+				<trpPaycode mop="1" cat="0" nacstendercode="generic" nacstendersubcode="generic">BILLS</trpPaycode>
+				<trpAmt>10.00</trpAmt>
+			</trPayline>
+			<trPayline type="sale" sysid="1" locale="DOLLAR">
+				<trpPaycode mop="1" cat="0" nacstendercode="generic" nacstendersubcode="generic">Change</trpPaycode>
+				<trpAmt>-3.37</trpAmt>
+			</trPayline>
+		</trPaylines>
+	</trans>

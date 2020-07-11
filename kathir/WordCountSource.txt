@@ -1,4 +1,0 @@
-user.info: Mar 30 06:00:02.262 TPZ  INFO  PrinterMonitor [com.verifone.isd.topaz.sys.app.printer.PrinterMonitor] - PrinterMonitor: rubyPrinter=false, fiscalPrinter=false
-user.debug: Mar 30 06:00:02.263 TPZ  DEBUG PrinterMonitor [com.verifone.isd.topaz.sys.app.printer.PrinterMonitor] - Submitting Direct IO PJob...\ERIPHERAL_STATUS
-user.debug: Mar 30 06:18:16.684 TPZ  DEBUG JposStatusHandler [com.verifone.isd.topaz.jpos.nullServices.NullBaseService$EventDispatch] - StatusUpdateEvent from com.verifone.isd.topaz.jpos.nullServices.printer.NullPOSPrinter
-user.debug: Mar 30 06:18:16.691 TPZ  DEBUG EventQueueProcessor [Eventnotifier Thread] - posted event to server : PERIPHERAL_STATUS

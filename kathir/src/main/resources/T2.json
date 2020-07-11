@@ -1,0 +1,116 @@
+﻿{
+    "trans": {
+        "trHeader": {
+            "termMsgSN": {
+                "_type": "FINANCIAL",
+                "_term": "102",
+                "__text": "40201"
+            },
+            "trTickNum": {
+                "posNum": "102",
+                "trSeq": "1020205"
+            },
+            "trUniqueSN": "218738",
+            "period": [
+                {
+                    "_level": "0",
+                    "_seq": "10",
+                    "_name": "HOUR"
+                },
+                {
+                    "_level": "1",
+                    "_seq": "135",
+                    "_name": "SHIFT"
+                },
+                {
+                    "_level": "2",
+                    "_seq": "133",
+                    "_name": "DAILY"
+                }
+            ],
+            "date": "2018-11-28T10:23:15-05:00",
+            "duration": "8",
+            "till": "1",
+            "cashier": {
+                "_sysid": "2",
+                "_empNum": "101181",
+                "_posNum": "102",
+                "_period": "47",
+                "_drawer": "1",
+                "__text": "Crystal"
+            },
+            "storeNumber": "0287"
+        },
+        "trValue": {
+            "trTotNoTax": "3.29",
+            "trTotWTax": "3.29",
+            "trTotTax": "0.00",
+            "trTax": "",
+            "trCurrTot": {
+                "_locale": "USD",
+                "__text": "3.29"
+            },
+            "trSTotalizer": "3.29",
+            "trGTotalizer": "3.29"
+        },
+        "trLines": {
+            "trLine": {
+                "trlTaxes": "",
+                "trlFlags": {
+                    "trlPLU": "",
+                    "trlUpdPluCust": "",
+                    "trlUpdDepCust": "",
+                    "trlCatCust": ""
+                },
+                "trlDept": {
+                    "_number": "121",
+                    "_type": "norm",
+                    "__text": "HBW"
+                },
+                "trlNetwCode": "400",
+                "trlQty": "1",
+                "trlSign": "1.00",
+                "trlSellUnit": "1.000",
+                "trlUnitPrice": "3.29",
+                "trlLineTot": "3.29",
+                "trlDesc": "LIL D CLARITIN",
+                "trlUPC": "00366715973214",
+                "trlModifier": "000",
+                "trlUPCEntry": {
+                    "_type": "scanned"
+                },
+                "_type": "plu"
+            }
+        },
+        "trPaylines": {
+            "trPayline": [
+                {
+                    "trpPaycode": {
+                        "_mop": "1",
+                        "_cat": "0",
+                        "_nacstendercode": "generic",
+                        "_nacstendersubcode": "generic",
+                        "__text": "BILLS"
+                    },
+                    "trpAmt": "5.00",
+                    "_type": "sale",
+                    "_sysid": "1",
+                    "_locale": "DOLLAR"
+                },
+                {
+                    "trpPaycode": {
+                        "_mop": "1",
+                        "_cat": "0",
+                        "_nacstendercode": "generic",
+                        "_nacstendersubcode": "generic",
+                        "__text": "Change"
+                    },
+                    "trpAmt": "-1.71",
+                    "_type": "sale",
+                    "_sysid": "1",
+                    "_locale": "DOLLAR"
+                }
+            ]
+        }
+    }
+}

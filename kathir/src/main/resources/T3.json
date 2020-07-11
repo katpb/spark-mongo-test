@@ -1,0 +1,180 @@
+﻿{
+    "trans": {
+        "trHeader": {
+            "termMsgSN": {
+                "_type": "FINANCIAL",
+                "_term": "102",
+                "__text": "39976"
+            },
+            "trTickNum": {
+                "posNum": "102",
+                "trSeq": "1029979"
+            },
+            "trUniqueSN": "218271",
+            "period": [
+                {
+                    "_level": "0",
+                    "_seq": "5",
+                    "_name": "HOUR"
+                },
+                {
+                    "_level": "1",
+                    "_seq": "135",
+                    "_name": "SHIFT"
+                },
+                {
+                    "_level": "2",
+                    "_seq": "133",
+                    "_name": "DAILY"
+                }
+            ],
+            "date": "2018-11-28T05:34:57-05:00",
+            "duration": "41",
+            "till": "1",
+            "cashier": {
+                "_sysid": "2",
+                "_empNum": "101181",
+                "_posNum": "102",
+                "_period": "47",
+                "_drawer": "1",
+                "__text": "Crystal"
+            },
+            "storeNumber": "0287"
+        },
+        "trValue": {
+            "trTotNoTax": "20.77",
+            "trTotWTax": "20.77",
+            "trTotTax": "0.00",
+            "trTax": "",
+            "trCurrTot": {
+                "_locale": "USD",
+                "__text": "20.77"
+            },
+            "trSTotalizer": "20.77",
+            "trGTotalizer": "20.77",
+            "custDOB": "021377"
+        },
+        "trLines": {
+            "trLine": [
+                {
+                    "trlTaxes": "",
+                    "trlFlags": {
+                        "trlPLU": "",
+                        "trlUpdPluCust": "",
+                        "trlUpdDepCust": "",
+                        "trlCatCust": "",
+                        "trlFuelSale": ""
+                    },
+                    "trlDept": {
+                        "_number": "121",
+                        "_type": "norm",
+                        "__text": "HBW"
+                    },
+                    "trlNetwCode": "400",
+                    "trlQty": "1",
+                    "trlSign": "1.00",
+                    "trlSellUnit": "1.000",
+                    "trlUnitPrice": "3.49",
+                    "trlLineTot": "3.49",
+                    "trlDesc": "5HR GRAPE",
+                    "trlUPC": "00719410200015",
+                    "trlModifier": "000",
+                    "trlUPCEntry": {
+                        "_type": "scanned"
+                    },
+                    "_type": "plu"
+                },
+                {
+                    "trlTaxes": "",
+                    "trlFlags": {
+                        "trlBdayVerif": "",
+                        "trlPLU": "",
+                        "trlUpdPluCust": "",
+                        "trlUpdDepCust": "",
+                        "trlFuelSale": ""
+                    },
+                    "trlDept": {
+                        "_number": "1021",
+                        "_type": "norm",
+                        "__text": "CIG PACKS"
+                    },
+                    "trlNetwCode": "411",
+                    "trlQty": "1",
+                    "trlSign": "1.00",
+                    "trlSellUnit": "1.000",
+                    "trlUnitPrice": "7.28",
+                    "trlLineTot": "7.28",
+                    "trlDesc": "MARL GLD MTL BX FSC",
+                    "trlUPC": "00028200004017",
+                    "trlModifier": "000",
+                    "trlUPCEntry": {
+                        "_type": "scanned"
+                    },
+                    "_type": "plu"
+                },
+                {
+                    "trlTaxes": "",
+                    "trlFlags": {
+                        "trlUpdDepCust": "",
+                        "trlCatCust": "",
+                        "trlFuelSale": ""
+                    },
+                    "trlDept": {
+                        "_number": "9999",
+                        "_type": "fuel",
+                        "__text": "FUEL DEPOSIT"
+                    },
+                    "trlCat": {
+                        "_number": "9999",
+                        "__text": "FUEL DEPOSIT"
+                    },
+                    "trlNetwCode": "0",
+                    "trlQty": "1",
+                    "trlSign": "1.00",
+                    "trlUnitPrice": "0.00",
+                    "trlLineTot": "10.00",
+                    "trlDesc": "PREPAY CA #07",
+                    "_type": "preFuel"
+                }
+            ]
+        },
+        "trPaylines": {
+            "trPayline": {
+                "trpPaycode": {
+                    "_mop": "8",
+                    "_cat": "2",
+                    "_nacstendercode": "generic",
+                    "_nacstendersubcode": "generic",
+                    "__text": "DEBIT"
+                },
+                "trpAmt": "20.77",
+                "trpCardInfo": {
+                    "trpcAccount": "458643FFFFFF3259",
+                    "trpcCCName": {
+                        "_sysid": "0",
+                        "__text": "DEBIT"
+                    },
+                    "trpcHostID": "buypass",
+                    "trpcAuthCode": "971639",
+                    "trpcAuthSrc": "",
+                    "trpcTicket": "971639",
+                    "trpcEntryMeth": "Swipe",
+                    "trpcBatchNr": "133",
+                    "trpcSeqNr": "1057280",
+                    "trpcAuthDateTime": "2018-11-28T05:34:56-05:00",
+                    "trpcRefNum": "1021537685903567",
+                    "trpcMerchInfo": {
+                        "trpcmMerchID": "8339525",
+                        "trpcmTermID": "8339525"
+                    }
+                },
+                "_type": "sale",
+                "_sysid": "1",
+                "_locale": "DOLLAR",
+                "_pending": "true"
+            }
+        },
+        "_type": "network sale",
+        "_recalled": "false"
+    }
+}

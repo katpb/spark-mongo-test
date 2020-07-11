@@ -1,0 +1,59 @@
+<trans>
+		<trHeader>
+			<termMsgSN type="FINANCIAL" term="102">40201</termMsgSN>
+			<trTickNum>
+				<posNum>102</posNum>
+				<trSeq>1020205</trSeq>
+			</trTickNum>
+			<trUniqueSN>218738</trUniqueSN>
+			<period level="0" seq="10" name="HOUR"/>
+			<period level="1" seq="135" name="SHIFT"/>
+			<period level="2" seq="133" name="DAILY"/>
+			<date>2018-11-28T10:23:15-05:00</date>
+			<duration>8</duration>
+			<till>1</till>
+			<cashier sysid="2" empNum="101181" posNum="102" period="47" drawer="1">Crystal</cashier>
+			<storeNumber>0287</storeNumber>
+		</trHeader>
+		<trValue>
+			<trTotNoTax>3.29</trTotNoTax>
+			<trTotWTax>3.29</trTotWTax>
+			<trTotTax>0.00</trTotTax>
+			<trTax/>
+			<trCurrTot locale="USD">3.29</trCurrTot>
+			<trSTotalizer>3.29</trSTotalizer>
+			<trGTotalizer>3.29</trGTotalizer>
+		</trValue>
+		<trLines>
+			<trLine type="plu">
+				<trlTaxes/>
+				<trlFlags>
+					<trlPLU/>
+					<trlUpdPluCust/>
+					<trlUpdDepCust/>
+					<trlCatCust/>
+				</trlFlags>
+				<trlDept number="121" type="norm">HBW</trlDept>
+				<trlNetwCode>400</trlNetwCode>
+				<trlQty>1</trlQty>
+				<trlSign>1.00</trlSign>
+				<trlSellUnit>1.000</trlSellUnit>
+				<trlUnitPrice>3.29</trlUnitPrice>
+				<trlLineTot>3.29</trlLineTot>
+				<trlDesc>LIL D CLARITIN</trlDesc>
+				<trlUPC>00366715973214</trlUPC>
+				<trlModifier>000</trlModifier>
+				<trlUPCEntry type="scanned"/>
+			</trLine>
+		</trLines>
+		<trPaylines>
+			<trPayline type="sale" sysid="1" locale="DOLLAR">
+				<trpPaycode mop="1" cat="0" nacstendercode="generic" nacstendersubcode="generic">BILLS</trpPaycode>
+				<trpAmt>5.00</trpAmt>
+			</trPayline>
+			<trPayline type="sale" sysid="1" locale="DOLLAR">
+				<trpPaycode mop="1" cat="0" nacstendercode="generic" nacstendersubcode="generic">Change</trpPaycode>
+				<trpAmt>-1.71</trpAmt>
+			</trPayline>
+		</trPaylines>
+	</trans>
