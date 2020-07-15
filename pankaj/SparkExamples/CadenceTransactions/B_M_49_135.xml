@@ -1,0 +1,66 @@
+<trans recalled="false" type="refund sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">306</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010306</trSeq>
+    </trTickNum>
+    <trUniqueSN>335</trUniqueSN>
+    <period level="0" name="HOUR" seq="21" />
+    <period level="1" name="Shift" seq="5" />
+    <period level="2" name="Day" seq="5" />
+    <date>2018-02-06T21:44:25-05:00</date>
+    <duration>1</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="5" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>-41.28</trTotNoTax>
+    <trTotWTax>-43.59</trTotWTax>
+    <trTotTax>-2.31</trTotTax>
+    <trTax>
+      <taxAmts>
+        <taxAmt cat="Tax-12" sysid="2">-41.28</taxAmt>
+        <taxRate cat="Tax-12" sysid="2">5.600</taxRate>
+        <taxNet cat="Tax-12" sysid="2">-2.31</taxNet>
+        <taxAttribute cat="Tax-12" sysid="2">0</taxAttribute>
+      </taxAmts>
+      <negTaxAmts>
+        <taxAmt cat="Tax-12" sysid="2">-41.28</taxAmt>
+        <taxRate cat="Tax-12" sysid="2">5.600</taxRate>
+        <taxNet cat="Tax-12" sysid="2">-2.31</taxNet>
+        <taxAttribute cat="Tax-12" sysid="2">0</taxAttribute>
+      </negTaxAmts>
+    </trTax>
+    <trCurrTot locale="USD">-43.59</trCurrTot>
+    <trSTotalizer>-43.59</trSTotalizer>
+    <trGTotalizer>43.59</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="dept">
+      <trlTaxes>
+        <trlTax cat="Tax-12" reverse="0" sysid="2">-41.28</trlTax>
+        <trlRate cat="Tax-12" sysid="2">5.600</trlRate>
+      </trlTaxes>
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="5504" type="norm">DEPT-5-TAX-FEE</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>3</trlQty>
+      <trlSign>-1.00</trlSign>
+      <trlUnitPrice>13.76</trlUnitPrice>
+      <trlLineTot>-41.28</trlLineTot>
+      <trlDesc>DEPT-5-TAX-FEE</trlDesc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="cancel">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>43.59</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

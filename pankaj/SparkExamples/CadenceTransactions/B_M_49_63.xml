@@ -1,0 +1,137 @@
+<trans recalled="false" type="network sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">72</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010072</trSeq>
+    </trTickNum>
+    <trUniqueSN>75</trUniqueSN>
+    <period level="0" name="HOUR" seq="20" />
+    <period level="1" name="Shift" seq="4" />
+    <period level="2" name="Day" seq="4" />
+    <date>2018-02-28T20:30:21-05:00</date>
+    <duration>43</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="2" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+    <popDiscTran />
+  </trHeader>
+  <trValue>
+    <trTotNoTax>51.71</trTotNoTax>
+    <trTotWTax>51.71</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">51.71</trCurrTot>
+    <trSTotalizer>51.71</trSTotalizer>
+    <trGTotalizer>53.26</trGTotalizer>
+  </trValue>
+  <trExNetProds>
+    <trExNetProd>
+      <trENPPcode>905</trENPPcode>
+      <trENPAmount>-20.00</trENPAmount>
+      <trENPItemCnt>1</trENPItemCnt>
+    </trExNetProd>
+    <trExNetProd>
+      <trENPPcode>913</trENPPcode>
+      <trENPAmount>-11.20</trENPAmount>
+      <trENPItemCnt>1</trENPItemCnt>
+    </trExNetProd>
+    <trExNetProd>
+      <trENPPcode>1</trENPPcode>
+      <trENPAmount>1.55</trENPAmount>
+      <trENPItemCnt>0</trENPItemCnt>
+    </trExNetProd>
+    <trExNetProd>
+      <trENPPcode>900</trENPPcode>
+      <trENPAmount>-1.55</trENPAmount>
+      <trENPItemCnt>1</trENPItemCnt>
+    </trExNetProd>
+  </trExNetProds>
+  <trLines>
+    <trLine type="dept">
+      <trlTaxes />
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="9994" type="norm">POP-DISNT-DEPT-2</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>4</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>8.00</trlUnitPrice>
+      <trlLineTot>32.00</trlLineTot>
+      <trlDesc>POP-DISNT-DEPT-2</trlDesc>
+    </trLine>
+    <trLine type="postFuel">
+      <trlTaxes />
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="9998" type="fuel">MANUAL FUEL DEPT</trlDept>
+      <trlCat number="9994">FUEL</trlCat>
+      <trlNetwCode>1</trlNetwCode>
+      <trlQty>18.965</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>1.121</trlUnitPrice>
+      <trlLineTot>19.71</trlLineTot>
+      <trlFuel type="norm">
+        <trlFuelSeq>2</trlFuelSeq>
+        <fuelPosition>12</fuelPosition>
+        <trlFuelDepst>0.00</trlFuelDepst>
+        <fuelProd NAXMLFuelGradeID="1" sysid="1">PETR-UNLD1</fuelProd>
+        <fuelSvcMode sysid="1">SELF</fuelSvcMode>
+        <fuelMOP sysid="2">CREDIT</fuelMOP>
+        <fuelVolume>18.965</fuelVolume>
+        <basePrice>1.121</basePrice>
+      </trlFuel>
+      <trlDesc>PETR-UNLD1 CR #12</trlDesc>
+      <trlPopDisc>
+        <trlpdDescrip>POP-DISCNT-6</trlpdDescrip>
+        <trlpdPGUnit>0.100</trlpdPGUnit>
+        <trlpdGrade>1</trlpdGrade>
+        <trlpdGradeName>PETR-UNLD1</trlpdGradeName>
+        <trlpdVolume>18.965</trlpdVolume>
+        <trlpdAmount>1.55</trlpdAmount>
+        <trlpdTime type="2">post</trlpdTime>
+        <trlpdMatch type="5">5</trlpdMatch>
+        <trlpdFuelDef>1</trlpdFuelDef>
+        <trlpdDiscProgramId>6</trlpdDiscProgramId>
+      </trlPopDisc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="30" mop="22" nacstendercode="generic" nacstendersubcode="generic">NON-TAXABLE-COUPON</trpPaycode>
+      <trpAmt>20.00</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>11.20</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="1" mop="3" nacstendercode="generic" nacstendersubcode="generic">CREDIT</trpPaycode>
+      <trpAmt>20.51</trpAmt>
+      <trpCardInfo isAboveSite="false">
+        <trpcAccount>540567FFFFFF0018</trpcAccount>
+        <trpcCCName sysid="0">MASTERCARD</trpcCCName>
+        <trpcHostID>buypass</trpcHostID>
+        <trpcAuthCode>987653</trpcAuthCode>
+        <trpcAuthSrc />
+        <trpcTicket>987653</trpcTicket>
+        <trpcEntryMeth>Swipe</trpcEntryMeth>
+        <trpcBatchNr>4</trpcBatchNr>
+        <trpcSeqNr>743</trpcSeqNr>
+        <trpcAuthDateTime>2018-02-28T20:30:21-05:00</trpcAuthDateTime>
+        <trpcRefNum>1011519860596306</trpcRefNum>
+        <trpcMerchInfo>
+          <trpcmMerchID>123456789</trpcmMerchID>
+          <trpcmTermID>0</trpcmTermID>
+        </trpcMerchInfo>
+      </trpCardInfo>
+    </trPayline>
+  </trPaylines>
+</trans>

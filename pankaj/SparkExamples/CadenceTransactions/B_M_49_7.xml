@@ -1,0 +1,116 @@
+<trans recalled="false" type="refund network sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">175</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010175</trSeq>
+    </trTickNum>
+    <trUniqueSN>190</trUniqueSN>
+    <period level="0" name="HOUR" seq="19" />
+    <period level="1" name="Shift" seq="5" />
+    <period level="2" name="Day" seq="5" />
+    <date>2018-02-06T19:37:32-05:00</date>
+    <duration>66</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="5" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>-38.25</trTotNoTax>
+    <trTotWTax>-39.16</trTotWTax>
+    <trTotTax>-0.91</trTotTax>
+    <trTax>
+      <taxAmts>
+        <taxAmt cat="Tax-11" sysid="1">-18.25</taxAmt>
+        <taxRate cat="Tax-11" sysid="1">5.000</taxRate>
+        <taxNet cat="Tax-11" sysid="1">-0.91</taxNet>
+        <taxAttribute cat="Tax-11" sysid="1">0</taxAttribute>
+      </taxAmts>
+      <negTaxAmts>
+        <taxAmt cat="Tax-11" sysid="1">-18.25</taxAmt>
+        <taxRate cat="Tax-11" sysid="1">5.000</taxRate>
+        <taxNet cat="Tax-11" sysid="1">-0.91</taxNet>
+        <taxAttribute cat="Tax-11" sysid="1">0</taxAttribute>
+      </negTaxAmts>
+    </trTax>
+    <trCurrTot locale="USD">-39.16</trCurrTot>
+    <trSTotalizer>-39.16</trSTotalizer>
+    <trGTotalizer>39.16</trGTotalizer>
+  </trValue>
+  <trExNetProds>
+    <trExNetProd>
+      <trENPPcode>950</trENPPcode>
+      <trENPAmount>-0.91</trENPAmount>
+      <trENPItemCnt>1</trENPItemCnt>
+    </trExNetProd>
+  </trExNetProds>
+  <trLines>
+    <trLine type="plu">
+      <trlTaxes>
+        <trlTax cat="Tax-11" reverse="0" sysid="1">-18.25</trlTax>
+        <trlRate cat="Tax-11" sysid="1">5.000</trlRate>
+      </trlTaxes>
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="1" type="norm">TAXABLE</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>-1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>18.25</trlUnitPrice>
+      <trlLineTot>-18.25</trlLineTot>
+      <trlDesc>PLU-AE</trlDesc>
+      <trlUPC>00000000091152</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+    </trLine>
+    <trLine type="plu">
+      <trlTaxes />
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="2" type="norm">NON-TAXABLE</trlDept>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>2</trlQty>
+      <trlSign>-1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>10.00</trlUnitPrice>
+      <trlLineTot>-20.00</trlLineTot>
+      <trlDesc>PLU-AA</trlDesc>
+      <trlUPC>00000000091114</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="cancel">
+      <trpPaycode cat="1" mop="3" nacstendercode="generic" nacstendersubcode="generic">CREDIT</trpPaycode>
+      <trpAmt>39.16</trpAmt>
+      <trpCardInfo isAboveSite="false">
+        <trpcAccount>371111FFFFF1005</trpcAccount>
+        <trpcCCName sysid="0">AMEX</trpcCCName>
+        <trpcHostID>buypass</trpcHostID>
+        <trpcAuthCode>987651</trpcAuthCode>
+        <trpcAuthSrc />
+        <trpcTicket>987651</trpcTicket>
+        <trpcEntryMeth>Swipe</trpcEntryMeth>
+        <trpcBatchNr>5</trpcBatchNr>
+        <trpcSeqNr>691</trpcSeqNr>
+        <trpcAuthDateTime>2018-02-06T19:37:31-05:00</trpcAuthDateTime>
+        <trpcRefNum>1011517909355091</trpcRefNum>
+        <trpcMerchInfo>
+          <trpcmMerchID>123456789</trpcmMerchID>
+          <trpcmTermID>9999999</trpcmTermID>
+        </trpcMerchInfo>
+      </trpCardInfo>
+    </trPayline>
+  </trPaylines>
+</trans>

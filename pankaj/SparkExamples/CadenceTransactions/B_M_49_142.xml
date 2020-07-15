@@ -1,0 +1,68 @@
+<trans recalled="false" type="network sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">101159</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010159</trSeq>
+    </trTickNum>
+    <trUniqueSN>176</trUniqueSN>
+    <period level="0" name="HOUR" seq="14" />
+    <period level="1" name="Shift" seq="1" />
+    <period level="2" name="Day" seq="1" />
+    <date>2018-09-26T14:30:24-04:00</date>
+    <duration>15</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="2" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>40.00</trTotNoTax>
+    <trTotWTax>40.00</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">40.00</trCurrTot>
+    <trSTotalizer>40.00</trSTotalizer>
+    <trGTotalizer>40.00</trGTotalizer>
+    <custDOB custAge="39" dob="100580" dobEntryMeth="Manual" minAge="0">100580</custDOB>
+  </trValue>
+  <trLines>
+    <trLine type="dept">
+      <trlTaxes />
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="8181" type="norm">RULE-DEPT</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>2</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>20.00</trlUnitPrice>
+      <trlLineTot>40.00</trlLineTot>
+      <trlDesc>RULE-DEPT</trlDesc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="1" mop="3" nacstendercode="generic" nacstendersubcode="generic">CREDIT</trpPaycode>
+      <trpAmt>40.00</trpAmt>
+      <trpCardInfo isAboveSite="false">
+        <trpcAccount>371111FFFFF1005</trpcAccount>
+        <trpcCCName sysid="0">AMEX</trpcCCName>
+        <trpcHostID>buypass</trpcHostID>
+        <trpcAuthCode>987650</trpcAuthCode>
+        <trpcAuthSrc />
+        <trpcTicket>987650</trpcTicket>
+        <trpcEntryMeth>Swipe</trpcEntryMeth>
+        <trpcBatchNr>2</trpcBatchNr>
+        <trpcSeqNr>542</trpcSeqNr>
+        <trpcAuthDateTime>2018-09-26T14:30:24-04:00</trpcAuthDateTime>
+        <trpcRefNum>1011537940572740</trpcRefNum>
+        <trpcMerchInfo>
+          <trpcmMerchID>123456789</trpcmMerchID>
+          <trpcmTermID>9999999</trpcmTermID>
+        </trpcMerchInfo>
+      </trpCardInfo>
+    </trPayline>
+  </trPaylines>
+</trans>

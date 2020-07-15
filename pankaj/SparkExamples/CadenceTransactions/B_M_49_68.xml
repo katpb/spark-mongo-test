@@ -1,0 +1,135 @@
+<trans recalled="false" type="network sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">77</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010077</trSeq>
+    </trTickNum>
+    <trUniqueSN>81</trUniqueSN>
+    <period level="0" name="HOUR" seq="20" />
+    <period level="1" name="Shift" seq="4" />
+    <period level="2" name="Day" seq="4" />
+    <date>2018-02-28T20:36:24-05:00</date>
+    <duration>41</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="2" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>35.61</trTotNoTax>
+    <trTotWTax>35.61</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">35.61</trCurrTot>
+    <trSTotalizer>35.61</trSTotalizer>
+    <trGTotalizer>38.61</trGTotalizer>
+  </trValue>
+  <trExNetProds>
+    <trExNetProd>
+      <trENPPcode>913</trENPPcode>
+      <trENPAmount>-15.00</trENPAmount>
+      <trENPItemCnt>1</trENPItemCnt>
+    </trExNetProd>
+    <trExNetProd>
+      <trENPPcode>102</trENPPcode>
+      <trENPAmount>3.00</trENPAmount>
+      <trENPItemCnt>0</trENPItemCnt>
+    </trExNetProd>
+    <trExNetProd>
+      <trENPPcode>900</trENPPcode>
+      <trENPAmount>-3.00</trENPAmount>
+      <trENPItemCnt>1</trENPItemCnt>
+    </trExNetProd>
+  </trExNetProds>
+  <trLines>
+    <trLine type="postFuel">
+      <trlTaxes />
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="9998" type="fuel">MANUAL FUEL DEPT</trlDept>
+      <trlCat number="9994">FUEL</trlCat>
+      <trlNetwCode>3</trlNetwCode>
+      <trlQty>7.565</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>3.121</trlUnitPrice>
+      <trlLineTot>23.61</trlLineTot>
+      <trlFuel type="norm">
+        <trlFuelSeq>2</trlFuelSeq>
+        <fuelPosition>4</fuelPosition>
+        <trlFuelDepst>0.00</trlFuelDepst>
+        <fuelProd NAXMLFuelGradeID="3" sysid="3">DIESEL-LD3</fuelProd>
+        <fuelSvcMode sysid="1">SELF</fuelSvcMode>
+        <fuelMOP sysid="2">CREDIT</fuelMOP>
+        <fuelVolume>7.565</fuelVolume>
+        <basePrice>3.121</basePrice>
+      </trlFuel>
+      <trlDesc>DIESEL-LD3 CR #04</trlDesc>
+    </trLine>
+    <trLine type="plu">
+      <trlTaxes />
+      <trlFee>
+        <trlFeeNum>1</trlFeeNum>
+        <trlFeeAmount>5.00</trlFeeAmount>
+        <trlFeeName>FEE-1-REFUNDABLE</trlFeeName>
+        <trlFeeDepNum>9957</trlFeeDepNum>
+        <trlFeeDepName>FEE DEPT</trlFeeDepName>
+        <trlFeeCat number="9995">TEST MDSE</trlFeeCat>
+        <trlFeeIdentifier />
+      </trlFee>
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="4545" type="norm">CAR-WASH-DEPT</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>102</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>10.00</trlUnitPrice>
+      <trlLineTot>12.00</trlLineTot>
+      <trlDesc>CAR-WASH-PLU-3</trlDesc>
+      <trlUPC>00000000066686</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+      <trlCw>
+        <trlCwLineIx>3</trlCwLineIx>
+        <trlCwCode>05703</trlCwCode>
+        <trlCwPromo type="fixed">3.00</trlCwPromo>
+      </trlCw>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>15.00</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="1" mop="3" nacstendercode="generic" nacstendersubcode="generic">CREDIT</trpPaycode>
+      <trpAmt>20.61</trpAmt>
+      <trpCardInfo isAboveSite="false">
+        <trpcAccount>401280FFF0067</trpcAccount>
+        <trpcCCName sysid="0">VISA</trpcCCName>
+        <trpcHostID>buypass</trpcHostID>
+        <trpcAuthCode>987651</trpcAuthCode>
+        <trpcAuthSrc />
+        <trpcTicket>987651</trpcTicket>
+        <trpcEntryMeth>Swipe</trpcEntryMeth>
+        <trpcBatchNr>4</trpcBatchNr>
+        <trpcSeqNr>759</trpcSeqNr>
+        <trpcAuthDateTime>2018-02-28T20:36:24-05:00</trpcAuthDateTime>
+        <trpcRefNum>1011519860596321</trpcRefNum>
+        <trpcMerchInfo>
+          <trpcmMerchID>123456789</trpcmMerchID>
+          <trpcmTermID>0</trpcmTermID>
+        </trpcMerchInfo>
+      </trpCardInfo>
+    </trPayline>
+  </trPaylines>
+</trans>

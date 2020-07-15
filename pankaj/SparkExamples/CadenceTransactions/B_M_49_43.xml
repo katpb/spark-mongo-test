@@ -1,0 +1,55 @@
+<trans recalled="false" type="sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">209</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010209</trSeq>
+    </trTickNum>
+    <trUniqueSN>224</trUniqueSN>
+    <period level="0" name="HOUR" seq="20" />
+    <period level="1" name="Shift" seq="5" />
+    <period level="2" name="Day" seq="5" />
+    <date>2018-02-06T20:13:35-05:00</date>
+    <duration>34</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="5" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>24.00</trTotNoTax>
+    <trTotWTax>24.00</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">24.00</trCurrTot>
+    <trSTotalizer>24.00</trSTotalizer>
+    <trGTotalizer>24.00</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="dept">
+      <trlTaxes />
+      <trlFlags>
+        <trlPrepdCard func="revaluation" />
+        <trlUpdDepCust />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="9966" type="norm">GIFT RECHARGE</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>533</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>24.00</trlUnitPrice>
+      <trlLineTot>24.00</trlLineTot>
+      <trlDesc>GIFT RECHARGE</trlDesc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>40.00</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">Change</trpPaycode>
+      <trpAmt>-16.00</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

@@ -1,0 +1,121 @@
+<trans fuelPrepay="true" recalled="false" type="void">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">101139</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010139</trSeq>
+    </trTickNum>
+    <trUniqueSN>154</trUniqueSN>
+    <period level="0" name="HOUR" seq="23" />
+    <period level="1" name="Shift" seq="1" />
+    <period level="2" name="Day" seq="1" />
+    <date>2019-01-17T23:14:12-05:00</date>
+    <duration>19</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="2" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>192.88</trTotNoTax>
+    <trTotWTax>196.58</trTotWTax>
+    <trTotTax>3.70</trTotTax>
+    <trTax>
+      <taxAmts>
+        <taxAmt cat="Tax-11" sysid="1">74.03</taxAmt>
+        <taxRate cat="Tax-11" sysid="1">5.000</taxRate>
+        <taxNet cat="Tax-11" sysid="1">3.70</taxNet>
+        <taxAttribute cat="Tax-11" sysid="1">0</taxAttribute>
+      </taxAmts>
+    </trTax>
+    <trCurrTot locale="USD">196.58</trCurrTot>
+    <trSTotalizer>0</trSTotalizer>
+    <trGTotalizer>192.88</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="plu">
+      <trlTaxes>
+        <trlTax cat="Tax-11" reverse="0" sysid="1">5.00</trlTax>
+        <trlRate cat="Tax-11" sysid="1">5.000</trlRate>
+      </trlTaxes>
+      <trlFlags>
+        <trlPLU />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="4545" type="norm">CAR-WASH-DEPT</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>102</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>5.00</trlUnitPrice>
+      <trlLineTot>5.00</trlLineTot>
+      <trlDesc>CAR-WASH-PLU-1</trlDesc>
+      <trlUPC>00000000066662</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+      <trlCw>
+        <trlCwLineIx>1</trlCwLineIx>
+        <trlCwCode>13365</trlCwCode>
+      </trlCw>
+    </trLine>
+    <trLine type="plu">
+      <trlTaxes />
+      <trlFee>
+        <trlFeeNum>1</trlFeeNum>
+        <trlFeeAmount>6.50</trlFeeAmount>
+        <trlFeeName>FEE-1-REFUNDABLE</trlFeeName>
+        <trlFeeDepNum>9957</trlFeeDepNum>
+        <trlFeeDepName>FEE DEPT</trlFeeDepName>
+        <trlFeeCat number="9995">TEST MDSE</trlFeeCat>
+        <trlFeeIdentifier />
+      </trlFee>
+      <trlFlags>
+        <trlPLU />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="9996" type="norm">TEST B DEPT</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>4</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>21.00</trlUnitPrice>
+      <trlLineTot>110.00</trlLineTot>
+      <trlDesc>COMBO-PLU-5</trlDesc>
+      <trlUPC>00000000070058</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+    </trLine>
+    <trLine type="preFuel" unsettled="true">
+      <trlTaxes />
+      <trlFlags>
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="9999" type="fuel">FUEL DEPOSIT</trlDept>
+      <trlCat number="9999">FUEL DEPOSIT</trlCat>
+      <trlNetwCode>0</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>0.00</trlUnitPrice>
+      <trlLineTot>12.00</trlLineTot>
+      <trlDesc>PREPAY CA #07</trlDesc>
+    </trLine>
+    <trLine type="dept">
+      <trlTaxes>
+        <trlTax cat="Tax-11" reverse="0" sysid="1">69.03</trlTax>
+        <trlRate cat="Tax-11" sysid="1">5.000</trlRate>
+      </trlTaxes>
+      <trlFlags>
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="25" type="norm">SOFT DRINKS</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>424</trlNetwCode>
+      <trlQty>3</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>23.01</trlUnitPrice>
+      <trlLineTot>69.03</trlLineTot>
+      <trlDesc>SOFT DRINKS</trlDesc>
+    </trLine>
+  </trLines>
+</trans>

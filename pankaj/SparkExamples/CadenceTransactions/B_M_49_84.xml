@@ -1,0 +1,97 @@
+<trans recalled="false" type="network sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">89</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010089</trSeq>
+    </trTickNum>
+    <trUniqueSN>98</trUniqueSN>
+    <period level="0" name="HOUR" seq="21" />
+    <period level="1" name="Shift" seq="2" />
+    <period level="2" name="Day" seq="2" />
+    <date>2018-03-07T21:20:21-05:00</date>
+    <duration>30</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="2" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+    <trFuelOnlyCst />
+  </trHeader>
+  <trValue>
+    <trTotNoTax>17.80</trTotNoTax>
+    <trTotWTax>17.80</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">17.80</trCurrTot>
+    <trSTotalizer>17.80</trSTotalizer>
+    <trGTotalizer>17.80</trGTotalizer>
+    <trCshBk>
+      <trCshBkAmt cat="1" mop="3">5.00</trCshBkAmt>
+    </trCshBk>
+  </trValue>
+  <trExNetProds>
+    <trExNetProd>
+      <trENPPcode>955</trENPPcode>
+      <trENPAmount>5.00</trENPAmount>
+      <trENPItemCnt>1</trENPItemCnt>
+    </trExNetProd>
+  </trExNetProds>
+  <trLines>
+    <trLine type="postFuel">
+      <trlTaxes />
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelOnly />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="9998" type="fuel">MANUAL FUEL DEPT</trlDept>
+      <trlCat number="9994">FUEL</trlCat>
+      <trlNetwCode>19</trlNetwCode>
+      <trlQty>2.500</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>7.121</trlUnitPrice>
+      <trlLineTot>17.80</trlLineTot>
+      <trlFuel type="norm">
+        <trlFuelSeq>3</trlFuelSeq>
+        <fuelPosition>6</fuelPosition>
+        <trlFuelDepst>0.00</trlFuelDepst>
+        <fuelProd NAXMLFuelGradeID="7" sysid="7">DIESL-7</fuelProd>
+        <fuelSvcMode sysid="1">SELF</fuelSvcMode>
+        <fuelMOP sysid="2">CREDIT</fuelMOP>
+        <fuelVolume>2.500</fuelVolume>
+        <basePrice>7.121</basePrice>
+      </trlFuel>
+      <trlDesc>DIESL-7 CR #06</trlDesc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="1" mop="3" nacstendercode="generic" nacstendersubcode="generic">CREDIT</trpPaycode>
+      <trpAmt>22.80</trpAmt>
+      <trCshBk>
+        <trCshBkAmt cat="1" mop="3">5.00</trCshBkAmt>
+      </trCshBk>
+      <trpCardInfo isAboveSite="false">
+        <trpcAccount>601100FFFFFF7297</trpcAccount>
+        <trpcCCName sysid="0">DISCOVER</trpcCCName>
+        <trpcHostID>buypass</trpcHostID>
+        <trpcAuthCode>987654</trpcAuthCode>
+        <trpcAuthSrc />
+        <trpcTicket>987654</trpcTicket>
+        <trpcEntryMeth>Swipe</trpcEntryMeth>
+        <trpcBatchNr>2</trpcBatchNr>
+        <trpcSeqNr>429</trpcSeqNr>
+        <trpcAuthDateTime>2018-03-07T21:20:21-05:00</trpcAuthDateTime>
+        <trpcRefNum>1011520468104888</trpcRefNum>
+        <trpcMerchInfo>
+          <trpcmMerchID>123456789</trpcmMerchID>
+          <trpcmTermID>9999999</trpcmTermID>
+        </trpcMerchInfo>
+      </trpCardInfo>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="chngdebit">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">Change</trpPaycode>
+      <trpAmt>-5.00</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

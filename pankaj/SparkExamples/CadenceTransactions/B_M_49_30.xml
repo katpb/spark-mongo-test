@@ -1,0 +1,63 @@
+<trans recalled="false" type="sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">190</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010190</trSeq>
+    </trTickNum>
+    <trUniqueSN>205</trUniqueSN>
+    <period level="0" name="HOUR" seq="12" />
+    <period level="1" name="SHIFT" seq="1" />
+    <period level="2" name="DAILY" seq="1" />
+    <date>2018-03-15T12:54:11-04:00</date>
+    <duration>38</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="1" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>24.81</trTotNoTax>
+    <trTotWTax>24.81</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">24.81</trCurrTot>
+    <trSTotalizer>24.81</trSTotalizer>
+    <trGTotalizer>24.81</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="dept">
+      <trlTaxes />
+      <trlFee>
+        <trlFeeNum>3</trlFeeNum>
+        <trlFeeAmount>2.26</trlFeeAmount>
+        <trlFeeName>FEE-3-PERCENTAGE</trlFeeName>
+        <trlFeeDepNum>9957</trlFeeDepNum>
+        <trlFeeDepName>FEE DEPT</trlFeeDepName>
+        <trlFeeCat number="9995">TEST MDSE</trlFeeCat>
+        <trlFeeIdentifier />
+      </trlFee>
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="5503" type="norm">DEPT-4-FEE-PERCENT</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>22.55</trlUnitPrice>
+      <trlLineTot>24.81</trlLineTot>
+      <trlDesc>DEPT-4-FEE-PERCENT</trlDesc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>30.00</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">Change</trpPaycode>
+      <trpAmt>-5.19</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

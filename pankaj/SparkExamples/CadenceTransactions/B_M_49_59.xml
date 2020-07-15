@@ -1,0 +1,154 @@
+<trans recalled="false" type="sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">68</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010068</trSeq>
+    </trTickNum>
+    <trUniqueSN>69</trUniqueSN>
+    <period level="0" name="HOUR" seq="20" />
+    <period level="1" name="Shift" seq="4" />
+    <period level="2" name="Day" seq="4" />
+    <date>2018-02-28T20:26:43-05:00</date>
+    <duration>84</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="2" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+    <popDiscTran />
+  </trHeader>
+  <trValue>
+    <trTotNoTax>230.28</trTotNoTax>
+    <trTotWTax>230.28</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">230.28</trCurrTot>
+    <trSTotalizer>230.28</trSTotalizer>
+    <trGTotalizer>232.38</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="plu">
+      <trlTaxes />
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="1" type="norm">TAXABLE</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>2</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>60.00</trlUnitPrice>
+      <trlLineTot>120.00</trlLineTot>
+      <trlDesc>PLU-AS</trlDesc>
+      <trlUPC>00000000091299</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+    </trLine>
+    <trLine type="plu">
+      <trlTaxes />
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="1" type="norm">TAXABLE</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>47.00</trlUnitPrice>
+      <trlLineTot>47.00</trlLineTot>
+      <trlDesc>PLU-AT</trlDesc>
+      <trlUPC>00000000091305</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+    </trLine>
+    <trLine type="plu">
+      <trlTaxes />
+      <trlFee>
+        <trlFeeNum>1</trlFeeNum>
+        <trlFeeAmount>6.50</trlFeeAmount>
+        <trlFeeName>FEE-1-REFUNDABLE</trlFeeName>
+        <trlFeeDepNum>9957</trlFeeDepNum>
+        <trlFeeDepName>FEE DEPT</trlFeeDepName>
+        <trlFeeCat number="9995">TEST MDSE</trlFeeCat>
+        <trlFeeIdentifier />
+      </trlFee>
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="2" type="norm">NON-TAXABLE</trlDept>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>21.25</trlUnitPrice>
+      <trlLineTot>27.75</trlLineTot>
+      <trlDesc>PLU-AG</trlDesc>
+      <trlUPC>00000000091176</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+    </trLine>
+    <trLine type="postFuel">
+      <trlTaxes />
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="9998" type="fuel">MANUAL FUEL DEPT</trlDept>
+      <trlCat number="9994">FUEL</trlCat>
+      <trlNetwCode>4</trlNetwCode>
+      <trlQty>9.131</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>4.121</trlUnitPrice>
+      <trlLineTot>35.53</trlLineTot>
+      <trlFuel type="norm">
+        <trlFuelSeq>4</trlFuelSeq>
+        <fuelPosition>5</fuelPosition>
+        <trlFuelDepst>0.00</trlFuelDepst>
+        <fuelProd NAXMLFuelGradeID="4" sysid="4">PETROL-LD4</fuelProd>
+        <fuelSvcMode sysid="1">SELF</fuelSvcMode>
+        <fuelMOP sysid="2">CREDIT</fuelMOP>
+        <fuelVolume>9.131</fuelVolume>
+        <basePrice>4.121</basePrice>
+      </trlFuel>
+      <trlDesc>PETROL-LD4 CR #05</trlDesc>
+      <trlPopDisc>
+        <trlpdDescrip>POP-DISCNT-4</trlpdDescrip>
+        <trlpdPGUnit>0.230</trlpdPGUnit>
+        <trlpdGrade>4</trlpdGrade>
+        <trlpdGradeName>PETROL-LD4</trlpdGradeName>
+        <trlpdVolume>9.131</trlpdVolume>
+        <trlpdAmount>2.10</trlpdAmount>
+        <trlpdTime type="2">post</trlpdTime>
+        <trlpdMatch type="4">4</trlpdMatch>
+        <trlpdFuelDef>2</trlpdFuelDef>
+        <trlpdDiscProgramId>4</trlpdDiscProgramId>
+      </trlPopDisc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="13" mop="8" nacstendercode="generic" nacstendersubcode="generic">FOODSTAMP</trpPaycode>
+      <trpAmt>6.00</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>230.00</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">Change</trpPaycode>
+      <trpAmt>-5.72</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

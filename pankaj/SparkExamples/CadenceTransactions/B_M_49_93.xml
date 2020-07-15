@@ -1,0 +1,80 @@
+<trans recalled="false" type="network sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">102</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010102</trSeq>
+    </trTickNum>
+    <trUniqueSN>111</trUniqueSN>
+    <period level="0" name="HOUR" seq="21" />
+    <period level="1" name="Shift" seq="4" />
+    <period level="2" name="Day" seq="4" />
+    <date>2018-02-28T21:07:08-05:00</date>
+    <duration>11</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="2" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+    <trFuelOnlyCst />
+  </trHeader>
+  <trValue>
+    <trTotNoTax>28.90</trTotNoTax>
+    <trTotWTax>28.90</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">28.90</trCurrTot>
+    <trSTotalizer>28.90</trSTotalizer>
+    <trGTotalizer>28.90</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="postFuel">
+      <trlTaxes />
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelOnly />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="9998" type="fuel">MANUAL FUEL DEPT</trlDept>
+      <trlCat number="9994">FUEL</trlCat>
+      <trlNetwCode>19</trlNetwCode>
+      <trlQty>4.058</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>7.121</trlUnitPrice>
+      <trlLineTot>28.90</trlLineTot>
+      <trlFuel type="norm">
+        <trlFuelSeq>5</trlFuelSeq>
+        <fuelPosition>6</fuelPosition>
+        <trlFuelDepst>0.00</trlFuelDepst>
+        <fuelProd NAXMLFuelGradeID="7" sysid="7">DIESL-7</fuelProd>
+        <fuelSvcMode sysid="1">SELF</fuelSvcMode>
+        <fuelMOP sysid="2">CREDIT</fuelMOP>
+        <fuelVolume>4.058</fuelVolume>
+        <basePrice>7.121</basePrice>
+      </trlFuel>
+      <trlDesc>DIESL-7 CR #06</trlDesc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="1" mop="3" nacstendercode="generic" nacstendersubcode="generic">CREDIT</trpPaycode>
+      <trpAmt>28.90</trpAmt>
+      <trpCardInfo isAboveSite="false">
+        <trpcAccount>448553FFFFFF4446</trpcAccount>
+        <trpcCCName sysid="0">VISA FL</trpcCCName>
+        <trpcHostID>buypass</trpcHostID>
+        <trpcAuthCode>987652</trpcAuthCode>
+        <trpcAuthSrc />
+        <trpcTicket>987652</trpcTicket>
+        <trpcEntryMeth>Swipe</trpcEntryMeth>
+        <trpcBatchNr>4</trpcBatchNr>
+        <trpcSeqNr>842</trpcSeqNr>
+        <trpcAuthDateTime>2018-02-28T21:07:07-05:00</trpcAuthDateTime>
+        <trpcRefNum>1011519860596392</trpcRefNum>
+        <trpcMerchInfo>
+          <trpcmMerchID>123456789</trpcmMerchID>
+          <trpcmTermID>0</trpcmTermID>
+        </trpcMerchInfo>
+      </trpCardInfo>
+    </trPayline>
+  </trPaylines>
+</trans>

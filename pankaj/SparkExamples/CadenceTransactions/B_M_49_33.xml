@@ -1,0 +1,51 @@
+<trans recalled="false" type="sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">200</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010200</trSeq>
+    </trTickNum>
+    <trUniqueSN>215</trUniqueSN>
+    <period level="0" name="HOUR" seq="20" />
+    <period level="1" name="Shift" seq="5" />
+    <period level="2" name="Day" seq="5" />
+    <date>2018-02-06T20:05:57-05:00</date>
+    <duration>37</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="5" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>-22.00</trTotNoTax>
+    <trTotWTax>-22.00</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">-22.00</trCurrTot>
+    <trSTotalizer>-22.00</trSTotalizer>
+    <trGTotalizer>22.00</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="dept">
+      <trlTaxes />
+      <trlFlags>
+        <trlNegative cause="negDept" />
+        <trlUpdDepCust />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="9880" type="neg">NEGATIVE DEPT</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>915</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>-1.00</trlSign>
+      <trlUnitPrice>22.00</trlUnitPrice>
+      <trlLineTot>-22.00</trlLineTot>
+      <trlDesc>NEGATIVE DEPT</trlDesc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>-22.00</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

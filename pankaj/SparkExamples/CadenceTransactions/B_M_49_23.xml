@@ -1,0 +1,56 @@
+<trans recalled="false" type="sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">186</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010186</trSeq>
+    </trTickNum>
+    <trUniqueSN>201</trUniqueSN>
+    <period level="0" name="HOUR" seq="12" />
+    <period level="1" name="SHIFT" seq="1" />
+    <period level="2" name="DAILY" seq="1" />
+    <date>2018-03-15T12:39:58-04:00</date>
+    <duration>38</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="1" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>47.00</trTotNoTax>
+    <trTotWTax>47.00</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">47.00</trCurrTot>
+    <trSTotalizer>47.00</trSTotalizer>
+    <trGTotalizer>47.00</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="plu">
+      <trlTaxes />
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="1" type="norm">TAXABLE</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>47.00</trlUnitPrice>
+      <trlLineTot>47.00</trlLineTot>
+      <trlDesc>PLU-AT</trlDesc>
+      <trlUPC>00000000091305</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>47.00</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

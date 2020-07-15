@@ -1,0 +1,87 @@
+<trans fuelPrepay="true" recalled="false" type="sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">101114</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010114</trSeq>
+    </trTickNum>
+    <trUniqueSN>126</trUniqueSN>
+    <period level="0" name="HOUR" seq="22" />
+    <period level="1" name="Shift" seq="1" />
+    <period level="2" name="Day" seq="1" />
+    <date>2019-01-17T22:58:43-05:00</date>
+    <duration>24</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="2" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>35.00</trTotNoTax>
+    <trTotWTax>36.50</trTotWTax>
+    <trTotTax>1.50</trTotTax>
+    <trTax>
+      <taxAmts>
+        <taxAmt cat="Tax-11" sysid="1">30.00</taxAmt>
+        <taxRate cat="Tax-11" sysid="1">5.000</taxRate>
+        <taxNet cat="Tax-11" sysid="1">1.50</taxNet>
+        <taxAttribute cat="Tax-11" sysid="1">0</taxAttribute>
+      </taxAmts>
+    </trTax>
+    <trCurrTot locale="USD">36.50</trCurrTot>
+    <trSTotalizer>36.50</trSTotalizer>
+    <trGTotalizer>36.50</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="preFuel">
+      <trlTaxes />
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="9999" type="fuel">FUEL DEPOSIT</trlDept>
+      <trlCat number="9999">FUEL DEPOSIT</trlCat>
+      <trlNetwCode>2</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>2.121</trlUnitPrice>
+      <trlLineTot>5.00</trlLineTot>
+      <trlDesc>PREPAY CA #10</trlDesc>
+    </trLine>
+    <trLine type="plu">
+      <trlTaxes>
+        <trlTax cat="Tax-11" reverse="0" sysid="1">30.00</trlTax>
+        <trlRate cat="Tax-11" sysid="1">5.000</trlRate>
+      </trlTaxes>
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="1" type="norm">TAXABLE</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>2</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>15.00</trlUnitPrice>
+      <trlLineTot>30.00</trlLineTot>
+      <trlDesc>POP-DISCOUNT-PLU</trlDesc>
+      <trlUPC>00000000091350</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>60.00</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">Change</trpPaycode>
+      <trpAmt>-23.50</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

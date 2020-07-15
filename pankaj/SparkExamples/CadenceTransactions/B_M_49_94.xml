@@ -1,0 +1,63 @@
+<trans recalled="false" type="sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">103</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010103</trSeq>
+    </trTickNum>
+    <trUniqueSN>112</trUniqueSN>
+    <period level="0" name="HOUR" seq="21" />
+    <period level="1" name="Shift" seq="4" />
+    <period level="2" name="Day" seq="4" />
+    <date>2018-02-28T21:08:25-05:00</date>
+    <duration>1</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="2" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+    <trFuelOnlyCst />
+  </trHeader>
+  <trValue>
+    <trTotNoTax>13.50</trTotNoTax>
+    <trTotWTax>13.50</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">13.50</trCurrTot>
+    <trSTotalizer>13.50</trSTotalizer>
+    <trGTotalizer>13.50</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="postFuel">
+      <trlTaxes />
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelOnly />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="9998" type="fuel">MANUAL FUEL DEPT</trlDept>
+      <trlCat number="9994">FUEL</trlCat>
+      <trlNetwCode>2</trlNetwCode>
+      <trlQty>6.365</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>2.121</trlUnitPrice>
+      <trlLineTot>13.50</trlLineTot>
+      <trlFuel type="norm">
+        <trlFuelSeq>5</trlFuelSeq>
+        <fuelPosition>11</fuelPosition>
+        <trlFuelDepst>0.00</trlFuelDepst>
+        <fuelProd NAXMLFuelGradeID="2" sysid="2">PETR-UNLD2</fuelProd>
+        <fuelSvcMode sysid="1">SELF</fuelSvcMode>
+        <fuelMOP sysid="2">CREDIT</fuelMOP>
+        <fuelVolume>6.365</fuelVolume>
+        <basePrice>2.121</basePrice>
+      </trlFuel>
+      <trlDesc>PETR-UNLD2 CR #11</trlDesc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="14" mop="10" nacstendercode="generic" nacstendersubcode="generic">DRIVE OFF</trpPaycode>
+      <trpAmt>13.50</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

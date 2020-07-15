@@ -1,0 +1,198 @@
+<trans recalled="false" type="sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">221</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010221</trSeq>
+    </trTickNum>
+    <trUniqueSN>236</trUniqueSN>
+    <period level="0" name="HOUR" seq="20" />
+    <period level="1" name="Shift" seq="5" />
+    <period level="2" name="Day" seq="5" />
+    <date>2018-02-06T20:26:33-05:00</date>
+    <duration>8</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="5" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>55.50</trTotNoTax>
+    <trTotWTax>56.77</trTotWTax>
+    <trTotTax>1.27</trTotTax>
+    <trTax>
+      <taxAmts>
+        <taxAmt cat="Tax-11" sysid="1">8.50</taxAmt>
+        <taxRate cat="Tax-11" sysid="1">5.000</taxRate>
+        <taxNet cat="Tax-11" sysid="1">0.43</taxNet>
+        <taxAttribute cat="Tax-11" sysid="1">0</taxAttribute>
+        <taxAmt cat="Tax-12" sysid="2">15.00</taxAmt>
+        <taxRate cat="Tax-12" sysid="2">5.600</taxRate>
+        <taxNet cat="Tax-12" sysid="2">0.84</taxNet>
+        <taxAttribute cat="Tax-12" sysid="2">0</taxAttribute>
+      </taxAmts>
+    </trTax>
+    <trCurrTot locale="USD">56.77</trCurrTot>
+    <trSTotalizer>56.77</trSTotalizer>
+    <trGTotalizer>66.77</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="plu">
+      <trlTaxes>
+        <trlTax cat="Tax-11" reverse="0" sysid="1">8.50</trlTax>
+        <trlRate cat="Tax-11" sysid="1">5.000</trlRate>
+      </trlTaxes>
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlMatch />
+      </trlFlags>
+      <trlDept number="1" type="norm">TAXABLE</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>10.00</trlUnitPrice>
+      <trlLineTot>10.00</trlLineTot>
+      <trlDesc>COMBO-PLU-1</trlDesc>
+      <trlUPC>00000000070010</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+      <trlMixMatches>
+        <trlMatchLine>
+          <trlMatchName>1-COMBO-NEW-PRICE</trlMatchName>
+          <trlMatchQuantity>1</trlMatchQuantity>
+          <trlMatchPrice>8.50</trlMatchPrice>
+          <trlMatchMixes>103</trlMatchMixes>
+          <trlPromoAmount>1.50</trlPromoAmount>
+          <trlPromotionID promotype="combinationOffer">1</trlPromotionID>
+        </trlMatchLine>
+      </trlMixMatches>
+    </trLine>
+    <trLine type="plu">
+      <trlTaxes />
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlMatch />
+      </trlFlags>
+      <trlDept number="9995" type="norm">TEST A DEPT</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>11.50</trlUnitPrice>
+      <trlLineTot>11.50</trlLineTot>
+      <trlDesc>COMBO-PLU-2</trlDesc>
+      <trlUPC>00000000070027</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+      <trlMixMatches>
+        <trlMatchLine>
+          <trlMatchName>1-COMBO-NEW-PRICE</trlMatchName>
+          <trlMatchQuantity>1</trlMatchQuantity>
+          <trlMatchPrice>8.50</trlMatchPrice>
+          <trlMatchMixes>103</trlMatchMixes>
+          <trlPromoAmount>3.00</trlPromoAmount>
+          <trlPromotionID promotype="combinationOffer">1</trlPromotionID>
+        </trlMatchLine>
+      </trlMixMatches>
+    </trLine>
+    <trLine type="plu">
+      <trlTaxes />
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="2" type="norm">NON-TAXABLE</trlDept>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>10.00</trlUnitPrice>
+      <trlLineTot>10.00</trlLineTot>
+      <trlDesc>PLU-AA</trlDesc>
+      <trlUPC>00000000091114</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+    </trLine>
+    <trLine type="plu">
+      <trlTaxes />
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlMatch />
+      </trlFlags>
+      <trlDept number="2" type="norm">NON-TAXABLE</trlDept>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>16.25</trlUnitPrice>
+      <trlLineTot>16.25</trlLineTot>
+      <trlDesc>COMBO-PLU-3</trlDesc>
+      <trlUPC>00000000070034</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+      <trlMixMatches>
+        <trlMatchLine>
+          <trlMatchName>2-COMBO-DISC-BY-AMT</trlMatchName>
+          <trlMatchQuantity>1</trlMatchQuantity>
+          <trlMatchPrice>13.50</trlMatchPrice>
+          <trlMatchMixes>104</trlMatchMixes>
+          <trlPromoAmount>2.75</trlPromoAmount>
+          <trlPromotionID promotype="combinationOffer">2</trlPromotionID>
+        </trlMatchLine>
+      </trlMixMatches>
+    </trLine>
+    <trLine type="plu">
+      <trlTaxes>
+        <trlTax cat="Tax-12" reverse="0" sysid="2">15.00</trlTax>
+        <trlRate cat="Tax-12" sysid="2">5.600</trlRate>
+      </trlTaxes>
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlMatch />
+      </trlFlags>
+      <trlDept number="9995" type="norm">TEST A DEPT</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>17.75</trlUnitPrice>
+      <trlLineTot>17.75</trlLineTot>
+      <trlDesc>COMBO-PLU-4</trlDesc>
+      <trlUPC>00000000070041</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+      <trlMixMatches>
+        <trlMatchLine>
+          <trlMatchName>2-COMBO-DISC-BY-AMT</trlMatchName>
+          <trlMatchQuantity>1</trlMatchQuantity>
+          <trlMatchPrice>15.00</trlMatchPrice>
+          <trlMatchMixes>104</trlMatchMixes>
+          <trlPromoAmount>2.75</trlPromoAmount>
+          <trlPromotionID promotype="combinationOffer">2</trlPromotionID>
+        </trlMatchLine>
+      </trlMixMatches>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>60.00</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">Change</trpPaycode>
+      <trpAmt>-3.23</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

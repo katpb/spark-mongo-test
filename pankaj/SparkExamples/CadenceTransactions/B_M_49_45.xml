@@ -1,0 +1,76 @@
+<trans recalled="false" type="sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">211</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010211</trSeq>
+    </trTickNum>
+    <trUniqueSN>226</trUniqueSN>
+    <period level="0" name="HOUR" seq="20" />
+    <period level="1" name="Shift" seq="5" />
+    <period level="2" name="Day" seq="5" />
+    <date>2018-02-06T20:17:26-05:00</date>
+    <duration>64</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="5" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>17.00</trTotNoTax>
+    <trTotWTax>17.00</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">17.00</trCurrTot>
+    <trSTotalizer>17.00</trSTotalizer>
+    <trGTotalizer>23.00</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="plu">
+      <trlTaxes />
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlMatch />
+      </trlFlags>
+      <trlDept number="9995" type="norm">TEST A DEPT</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>2</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>11.50</trlUnitPrice>
+      <trlLineTot>23.00</trlLineTot>
+      <trlDesc>COMBO-PLU-2</trlDesc>
+      <trlUPC>00000000070027</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+      <trlMixMatches>
+        <trlMatchLine>
+          <trlMatchName>1-COMBO-NEW-PRICE</trlMatchName>
+          <trlMatchQuantity>2</trlMatchQuantity>
+          <trlMatchPrice>17.00</trlMatchPrice>
+          <trlMatchMixes>100</trlMatchMixes>
+          <trlPromoAmount>6.00</trlPromoAmount>
+          <trlPromotionID promotype="combinationOffer">1</trlPromotionID>
+        </trlMatchLine>
+      </trlMixMatches>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="7" mop="21" nacstendercode="generic" nacstendersubcode="generic">TAXABLE-COUPON</trpPaycode>
+      <trpAmt>8.00</trpAmt>
+      <trpCouponEntryMethod>MANUAL</trpCouponEntryMethod>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>10.00</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">Change</trpPaycode>
+      <trpAmt>-1.00</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

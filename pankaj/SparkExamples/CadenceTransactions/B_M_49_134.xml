@@ -1,0 +1,59 @@
+<trans recalled="false" type="refund sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">304</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010304</trSeq>
+    </trTickNum>
+    <trUniqueSN>333</trUniqueSN>
+    <period level="0" name="HOUR" seq="21" />
+    <period level="1" name="Shift" seq="5" />
+    <period level="2" name="Day" seq="5" />
+    <date>2018-02-06T21:43:39-05:00</date>
+    <duration>1</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="5" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>-53.24</trTotNoTax>
+    <trTotWTax>-53.24</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">-53.24</trCurrTot>
+    <trSTotalizer>-53.24</trSTotalizer>
+    <trGTotalizer>53.24</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="dept">
+      <trlTaxes />
+      <trlFee>
+        <trlFeeNum>1</trlFeeNum>
+        <trlFeeAmount>6.50</trlFeeAmount>
+        <trlFeeName>FEE-1-REFUNDABLE</trlFeeName>
+        <trlFeeDepNum>9957</trlFeeDepNum>
+        <trlFeeDepName>FEE DEPT</trlFeeDepName>
+        <trlFeeCat number="9995">TEST MDSE</trlFeeCat>
+        <trlFeeIdentifier />
+      </trlFee>
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="5502" type="norm">DEPT-3-FEE</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>2</trlQty>
+      <trlSign>-1.00</trlSign>
+      <trlUnitPrice>20.12</trlUnitPrice>
+      <trlLineTot>-53.24</trlLineTot>
+      <trlDesc>DEPT-3-FEE</trlDesc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="cancel">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>53.24</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

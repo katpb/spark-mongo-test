@@ -1,0 +1,58 @@
+<trans recalled="false" type="sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">10131</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010031</trSeq>
+    </trTickNum>
+    <trUniqueSN>32</trUniqueSN>
+    <period level="0" name="HOUR" seq="21" />
+    <period level="1" name="Shift" seq="1" />
+    <period level="2" name="Day" seq="1" />
+    <date>2019-01-17T21:46:04-05:00</date>
+    <duration>8</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="2" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>26.00</trTotNoTax>
+    <trTotWTax>26.00</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">26.00</trCurrTot>
+    <trSTotalizer>26.00</trSTotalizer>
+    <trGTotalizer>26.00</trGTotalizer>
+    <custDOB custAge="25" dob="121094" dobEntryMeth="Manual" minAge="21">121094</custDOB>
+  </trValue>
+  <trLines>
+    <trLine type="plu">
+      <trlTaxes />
+      <trlFlags>
+        <trlBdayVerif />
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="9995" type="norm">TEST A DEPT</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>576</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>26.00</trlUnitPrice>
+      <trlLineTot>26.00</trlLineTot>
+      <trlDesc>PLU-AK</trlDesc>
+      <trlUPC>00000000091213</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>26.00</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

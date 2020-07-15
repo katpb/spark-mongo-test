@@ -1,0 +1,128 @@
+<trans recalled="false" type="network sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">10175</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010075</trSeq>
+    </trTickNum>
+    <trUniqueSN>81</trUniqueSN>
+    <period level="0" name="HOUR" seq="1" />
+    <period level="1" name="OFFICECOPY" seq="27" />
+    <period level="2" name="DAILY" seq="27" />
+    <date>2020-01-25T01:47:29-05:00</date>
+    <duration>44</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="1" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+    <trFuelOnlyCst />
+    <popDiscTran />
+  </trHeader>
+  <trValue>
+    <trTotNoTax>17.47</trTotNoTax>
+    <trTotWTax>17.47</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">17.47</trCurrTot>
+    <trSTotalizer>17.47</trSTotalizer>
+    <trGTotalizer>18.99</trGTotalizer>
+  </trValue>
+  <trLoyalty>
+    <trLoyaltyProgram programID="PROGRAM01">
+      <trloSubTotal>17.47</trloSubTotal>
+      <trloAutoDisc>0.15</trloAutoDisc>
+      <trloCustDisc>0.00</trloCustDisc>
+      <trloAccount>2000002819718683161</trloAccount>
+      <trloEntryMeth>Swipe</trloEntryMeth>
+      <trloAuthReply></trloAuthReply>
+    </trLoyaltyProgram>
+    <trLoyaltyProgram programID="PROGRAM02">
+      <trloSubTotal>17.47</trloSubTotal>
+      <trloAutoDisc>0.00</trloAutoDisc>
+      <trloCustDisc>0.00</trloCustDisc>
+      <trloAccount>2000007259879938937</trloAccount>
+      <trloEntryMeth>Swipe</trloEntryMeth>
+      <trloAuthReply></trloAuthReply>
+    </trLoyaltyProgram>
+  </trLoyalty>
+  <trExNetProds>
+    <trExNetProd>
+      <trENPPcode>900</trENPPcode>
+      <trENPAmount>-0.15</trENPAmount>
+      <trENPItemCnt>1</trENPItemCnt>
+    </trExNetProd>
+    <trExNetProd>
+      <trENPPcode>4</trENPPcode>
+      <trENPAmount>1.52</trENPAmount>
+      <trENPItemCnt>0</trENPItemCnt>
+    </trExNetProd>
+    <trExNetProd>
+      <trENPPcode>900</trENPPcode>
+      <trENPAmount>-1.52</trENPAmount>
+      <trENPItemCnt>1</trENPItemCnt>
+    </trExNetProd>
+  </trExNetProds>
+  <trLines>
+    <trLine type="postFuel">
+      <trlTaxes />
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelOnly />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="9998" type="fuel">MANUAL FUEL DEPT</trlDept>
+      <trlCat number="9994">FUEL</trlCat>
+      <trlNetwCode>4</trlNetwCode>
+      <trlQty>4.608</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>4.121</trlUnitPrice>
+      <trlLineTot>17.47</trlLineTot>
+      <trlFuel type="norm">
+        <trlFuelSeq>3</trlFuelSeq>
+        <fuelPosition>5</fuelPosition>
+        <trlFuelDepst>0.00</trlFuelDepst>
+        <fuelProd NAXMLFuelGradeID="4" sysid="4">PETROL-LD4</fuelProd>
+        <fuelSvcMode sysid="1">SELF</fuelSvcMode>
+        <fuelMOP sysid="2">CREDIT</fuelMOP>
+        <fuelVolume>4.608</fuelVolume>
+        <basePrice>4.121</basePrice>
+      </trlFuel>
+      <trlDesc>PETROL-LD4 CR #05</trlDesc>
+      <trlPopDisc>
+        <trlpdDescrip>POP-DISCNT-3</trlpdDescrip>
+        <trlpdPGUnit>0.330</trlpdPGUnit>
+        <trlpdGrade>4</trlpdGrade>
+        <trlpdGradeName>PETROL-LD4</trlpdGradeName>
+        <trlpdVolume>4.608</trlpdVolume>
+        <trlpdAmount>1.52</trlpdAmount>
+        <trlpdTime type="2">post</trlpdTime>
+        <trlpdMatch type="3">3</trlpdMatch>
+        <trlpdFuelDef>3</trlpdFuelDef>
+        <trlpdDiscProgramId>3</trlpdDiscProgramId>
+      </trlPopDisc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="1" mop="3" nacstendercode="generic" nacstendersubcode="generic">CREDIT</trpPaycode>
+      <trpAmt>17.32</trpAmt>
+      <trpCardInfo isAboveSite="false">
+        <trpcAccount>371111FFFFF1005</trpcAccount>
+        <trpcCCName sysid="0">AMEX</trpcCCName>
+        <trpcHostID>buypass</trpcHostID>
+        <trpcAuthCode>123628</trpcAuthCode>
+        <trpcAuthSrc />
+        <trpcTicket>123628</trpcTicket>
+        <trpcEntryMeth>Swipe</trpcEntryMeth>
+        <trpcBatchNr>88</trpcBatchNr>
+        <trpcSeqNr>53385</trpcSeqNr>
+        <trpcAuthDateTime>2020-01-25T01:47:29-05:00</trpcAuthDateTime>
+        <trpcRefNum>1011579931344578</trpcRefNum>
+        <trpcMerchInfo>
+          <trpcmMerchID>99999</trpcmMerchID>
+          <trpcmTermID>99999</trpcmTermID>
+        </trpcMerchInfo>
+      </trpCardInfo>
+    </trPayline>
+  </trPaylines>
+</trans>

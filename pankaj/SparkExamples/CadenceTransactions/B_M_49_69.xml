@@ -1,0 +1,90 @@
+<trans fuelPrepay="true" recalled="false" type="sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">10184</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010084</trSeq>
+    </trTickNum>
+    <trUniqueSN>89</trUniqueSN>
+    <period level="0" name="HOUR" seq="22" />
+    <period level="1" name="Shift" seq="1" />
+    <period level="2" name="Day" seq="1" />
+    <date>2019-01-17T22:28:05-05:00</date>
+    <duration>13</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="2" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>41.00</trTotNoTax>
+    <trTotWTax>41.00</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">41.00</trCurrTot>
+    <trSTotalizer>41.00</trSTotalizer>
+    <trGTotalizer>41.00</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="preFuel">
+      <trlTaxes />
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="9999" type="fuel">FUEL DEPOSIT</trlDept>
+      <trlCat number="9999">FUEL DEPOSIT</trlCat>
+      <trlNetwCode>0</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>0.00</trlUnitPrice>
+      <trlLineTot>26.00</trlLineTot>
+      <trlDesc>PREPAY CA #04</trlDesc>
+    </trLine>
+    <trLine type="plu">
+      <trlTaxes />
+      <trlFee>
+        <trlFeeNum>1</trlFeeNum>
+        <trlFeeAmount>5.00</trlFeeAmount>
+        <trlFeeName>FEE-1-REFUNDABLE</trlFeeName>
+        <trlFeeDepNum>9957</trlFeeDepNum>
+        <trlFeeDepName>FEE DEPT</trlFeeDepName>
+        <trlFeeCat number="9995">TEST MDSE</trlFeeCat>
+        <trlFeeIdentifier />
+      </trlFee>
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="4545" type="norm">CAR-WASH-DEPT</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>102</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>10.00</trlUnitPrice>
+      <trlLineTot>15.00</trlLineTot>
+      <trlDesc>CAR-WASH-PLU-3</trlDesc>
+      <trlUPC>00000000066686</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+      <trlCw>
+        <trlCwLineIx>3</trlCwLineIx>
+        <trlCwCode>94775</trlCwCode>
+      </trlCw>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>42.00</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">Change</trpPaycode>
+      <trpAmt>-1.00</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

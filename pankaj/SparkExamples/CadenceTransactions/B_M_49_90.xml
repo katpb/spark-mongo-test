@@ -1,0 +1,67 @@
+<trans recalled="false" type="sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">99</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010099</trSeq>
+    </trTickNum>
+    <trUniqueSN>108</trUniqueSN>
+    <period level="0" name="HOUR" seq="21" />
+    <period level="1" name="Shift" seq="4" />
+    <period level="2" name="Day" seq="4" />
+    <date>2018-02-28T21:03:57-05:00</date>
+    <duration>2</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="2" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+    <trFuelOnlyCst />
+  </trHeader>
+  <trValue>
+    <trTotNoTax>31.32</trTotNoTax>
+    <trTotWTax>31.32</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">31.32</trCurrTot>
+    <trSTotalizer>31.32</trSTotalizer>
+    <trGTotalizer>31.32</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="postFuel">
+      <trlTaxes />
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelOnly />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="9998" type="fuel">MANUAL FUEL DEPT</trlDept>
+      <trlCat number="9994">FUEL</trlCat>
+      <trlNetwCode>1</trlNetwCode>
+      <trlQty>27.939</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>1.121</trlUnitPrice>
+      <trlLineTot>31.32</trlLineTot>
+      <trlFuel type="norm">
+        <trlFuelSeq>4</trlFuelSeq>
+        <fuelPosition>8</fuelPosition>
+        <trlFuelDepst>0.00</trlFuelDepst>
+        <fuelProd NAXMLFuelGradeID="1" sysid="1">PETR-UNLD1</fuelProd>
+        <fuelSvcMode sysid="1">SELF</fuelSvcMode>
+        <fuelMOP sysid="2">CREDIT</fuelMOP>
+        <fuelVolume>27.939</fuelVolume>
+        <basePrice>1.121</basePrice>
+      </trlFuel>
+      <trlDesc>PETR-UNLD1 CR #08</trlDesc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>35.00</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">Change</trpPaycode>
+      <trpAmt>-3.68</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

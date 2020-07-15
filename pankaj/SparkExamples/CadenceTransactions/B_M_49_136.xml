@@ -1,0 +1,58 @@
+<trans recalled="false" type="refund sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">308</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010308</trSeq>
+    </trTickNum>
+    <trUniqueSN>337</trUniqueSN>
+    <period level="0" name="HOUR" seq="21" />
+    <period level="1" name="Shift" seq="5" />
+    <period level="2" name="Day" seq="5" />
+    <date>2018-02-06T21:45:29-05:00</date>
+    <duration>12</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="5" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>-21.78</trTotNoTax>
+    <trTotWTax>-21.78</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">-21.78</trCurrTot>
+    <trSTotalizer>-21.78</trSTotalizer>
+    <trGTotalizer>21.78</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="plu">
+      <trlTaxes />
+      <trlFlags>
+        <trlFstmp />
+        <trlPLUNotFnd />
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="9911" type="norm">PLU-NOT-FOUND</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>-1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>21.78</trlUnitPrice>
+      <trlLineTot>-21.78</trlLineTot>
+      <trlDesc>PLU-NOT-FOUND</trlDesc>
+      <trlUPC>00045100007894</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="cancel">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>21.78</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

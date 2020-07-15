@@ -1,0 +1,79 @@
+<trans recalled="false" type="sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">182</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010182</trSeq>
+    </trTickNum>
+    <trUniqueSN>197</trUniqueSN>
+    <period level="0" name="HOUR" seq="12" />
+    <period level="1" name="SHIFT" seq="1" />
+    <period level="2" name="DAILY" seq="1" />
+    <date>2018-03-15T12:27:28-04:00</date>
+    <duration>38</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="1" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>40.00</trTotNoTax>
+    <trTotWTax>42.11</trTotWTax>
+    <trTotTax>2.11</trTotTax>
+    <trTax>
+      <taxAmts>
+        <taxAmt cat="Tax-13" sysid="3">32.50</taxAmt>
+        <taxRate cat="Tax-13" sysid="3">6.500</taxRate>
+        <taxNet cat="Tax-13" sysid="3">2.11</taxNet>
+        <taxAttribute cat="Tax-13" sysid="3">0</taxAttribute>
+      </taxAmts>
+    </trTax>
+    <trCurrTot locale="USD">42.11</trCurrTot>
+    <trSTotalizer>42.11</trSTotalizer>
+    <trGTotalizer>42.11</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="plu">
+      <trlTaxes>
+        <trlTax cat="Tax-13" reverse="0" sysid="3">32.50</trlTax>
+        <trlRate cat="Tax-13" sysid="3">6.500</trlRate>
+      </trlTaxes>
+      <trlFee>
+        <trlFeeNum>1</trlFeeNum>
+        <trlFeeAmount>7.50</trlFeeAmount>
+        <trlFeeName>FEE-1-REFUNDABLE</trlFeeName>
+        <trlFeeDepNum>9957</trlFeeDepNum>
+        <trlFeeDepName>FEE DEPT</trlFeeDepName>
+        <trlFeeCat number="9995">TEST MDSE</trlFeeCat>
+        <trlFeeIdentifier />
+      </trlFee>
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="25" type="norm">SOFT DRINKS</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>424</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>32.50</trlUnitPrice>
+      <trlLineTot>40.00</trlLineTot>
+      <trlDesc>PLU-AI</trlDesc>
+      <trlUPC>00000000091190</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>50.00</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">Change</trpPaycode>
+      <trpAmt>-7.89</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

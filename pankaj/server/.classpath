@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="D:/personal_dev/spark/jars/jackson-annotations-2.6.7.jar"/>
+	<classpathentry kind="lib" path="D:/personal_dev/spark/jars/jackson-core-2.6.7.jar"/>
+	<classpathentry kind="lib" path="D:/personal_dev/spark/jars/jackson-core-asl-1.9.13.jar"/>
+	<classpathentry kind="lib" path="D:/personal_dev/spark/jars/jackson-databind-2.6.7.3.jar"/>
+	<classpathentry kind="lib" path="D:/personal_dev/spark/jars/jackson-dataformat-yaml-2.6.7.jar"/>
+	<classpathentry kind="lib" path="D:/personal_dev/spark/jars/jackson-jaxrs-1.9.13.jar"/>
+	<classpathentry kind="lib" path="D:/personal_dev/spark/jars/jackson-mapper-asl-1.9.13.jar"/>
+	<classpathentry kind="lib" path="D:/personal_dev/spark/jars/jackson-module-jaxb-annotations-2.6.7.jar"/>
+	<classpathentry kind="lib" path="D:/personal_dev/spark/jars/jackson-module-paranamer-2.7.9.jar"/>
+	<classpathentry kind="lib" path="D:/personal_dev/spark/jars/jackson-module-scala_2.11-2.6.7.1.jar"/>
+	<classpathentry kind="lib" path="D:/personal_dev/spark/jars/jackson-xc-1.9.13.jar"/>
+	<classpathentry kind="lib" path="D:/personal_dev/jars/apache-tomcat-8.5.57-embed/annotations-api.jar"/>
+	<classpathentry kind="lib" path="D:/personal_dev/jars/apache-tomcat-8.5.57-embed/ecj-4.6.3.jar"/>
+	<classpathentry kind="lib" path="D:/personal_dev/jars/apache-tomcat-8.5.57-embed/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="D:/personal_dev/jars/apache-tomcat-8.5.57-embed/tomcat-embed-core.jar"/>
+	<classpathentry kind="lib" path="D:/personal_dev/jars/apache-tomcat-8.5.57-embed/tomcat-embed-el.jar"/>
+	<classpathentry kind="lib" path="D:/personal_dev/jars/apache-tomcat-8.5.57-embed/tomcat-embed-jasper.jar"/>
+	<classpathentry kind="lib" path="D:/personal_dev/jars/apache-tomcat-8.5.57-embed/tomcat-embed-websocket.jar"/>
+	<classpathentry kind="lib" path="D:/personal_dev/spark/jars/mongo-java-driver-3.12.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

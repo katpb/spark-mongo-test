@@ -1,0 +1,68 @@
+<trans type="network sale" recalled="false">
+  <trHeader>
+    <termMsgSN type="FINANCIAL" term="101">208</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010208</trSeq>
+    </trTickNum>
+    <trUniqueSN>223</trUniqueSN>
+    <period level="0" seq="20" name="HOUR" />
+    <period level="1" seq="5" name="Shift" />
+    <period level="2" seq="5" name="Day" />
+    <date>2018-02-06T20:12:17-05:00</date>
+    <duration>20</duration>
+    <till>1</till>
+    <cashier sysid="1" empNum="1" posNum="101" period="5" drawer="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>34.72</trTotNoTax>
+    <trTotWTax>34.72</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">34.72</trCurrTot>
+    <trSTotalizer>34.72</trSTotalizer>
+    <trGTotalizer>34.72</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="dept">
+      <trlTaxes />
+      <trlFlags>
+        <trlPrepdCard func="activation" />
+        <trlUpdDepCust />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="9965" type="norm">GIFT ACTIVATION</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>533</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>34.72</trlUnitPrice>
+      <trlLineTot>34.72</trlLineTot>
+      <trlDesc>GIFT ACTIVATION</trlDesc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline type="sale" sysid="1" locale="DOLLAR">
+      <trpPaycode mop="3" cat="1" nacstendercode="generic" nacstendersubcode="generic">CREDIT</trpPaycode>
+      <trpAmt>34.72</trpAmt>
+      <trpCardInfo isAboveSite="false">
+        <trpcAccount>371111FFFFF1005</trpcAccount>
+        <trpcCCName sysid="0">AMEX</trpcCCName>
+        <trpcHostID>buypass</trpcHostID>
+        <trpcAuthCode>987651</trpcAuthCode>
+        <trpcAuthSrc />
+        <trpcTicket>987651</trpcTicket>
+        <trpcEntryMeth>Swipe</trpcEntryMeth>
+        <trpcBatchNr>5</trpcBatchNr>
+        <trpcSeqNr>782</trpcSeqNr>
+        <trpcAuthDateTime>2018-02-06T20:12:11-05:00</trpcAuthDateTime>
+        <trpcRefNum>1011517909355176</trpcRefNum>
+        <trpcMerchInfo>
+          <trpcmMerchID>123456789</trpcmMerchID>
+          <trpcmTermID>9999999</trpcmTermID>
+        </trpcMerchInfo>
+      </trpCardInfo>
+    </trPayline>
+  </trPaylines>
+</trans>

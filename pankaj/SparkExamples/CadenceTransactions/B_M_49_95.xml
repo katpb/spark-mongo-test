@@ -1,0 +1,63 @@
+<trans recalled="false" type="pumptest">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">104</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010104</trSeq>
+    </trTickNum>
+    <trUniqueSN>113</trUniqueSN>
+    <period level="0" name="HOUR" seq="21" />
+    <period level="1" name="Shift" seq="4" />
+    <period level="2" name="Day" seq="4" />
+    <date>2018-02-28T21:09:08-05:00</date>
+    <duration>2</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="2" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+    <trFuelOnlyCst />
+  </trHeader>
+  <trValue>
+    <trTotNoTax>19.60</trTotNoTax>
+    <trTotWTax>19.60</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">19.60</trCurrTot>
+    <trSTotalizer>19.60</trSTotalizer>
+    <trGTotalizer>19.60</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="postFuel">
+      <trlTaxes />
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelOnly />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="9998" type="fuel">MANUAL FUEL DEPT</trlDept>
+      <trlCat number="9994">FUEL</trlCat>
+      <trlNetwCode>4</trlNetwCode>
+      <trlQty>4.756</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>4.121</trlUnitPrice>
+      <trlLineTot>19.60</trlLineTot>
+      <trlFuel type="norm">
+        <trlFuelSeq>9</trlFuelSeq>
+        <fuelPosition>5</fuelPosition>
+        <trlFuelDepst>0.00</trlFuelDepst>
+        <fuelProd NAXMLFuelGradeID="4" sysid="4">PETROL-LD4</fuelProd>
+        <fuelSvcMode sysid="1">SELF</fuelSvcMode>
+        <fuelMOP sysid="2">CREDIT</fuelMOP>
+        <fuelVolume>4.756</fuelVolume>
+        <basePrice>4.121</basePrice>
+      </trlFuel>
+      <trlDesc>PETROL-LD4 CR #05</trlDesc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="19" mop="16" nacstendercode="generic" nacstendersubcode="generic">Pump Test</trpPaycode>
+      <trpAmt>19.60</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

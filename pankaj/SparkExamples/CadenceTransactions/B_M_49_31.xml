@@ -1,0 +1,102 @@
+<trans type="network sale" recalled="false">
+  <trHeader>
+    <termMsgSN type="FINANCIAL" term="101">198</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010198</trSeq>
+    </trTickNum>
+    <trUniqueSN>213</trUniqueSN>
+    <period level="0" seq="20" name="HOUR" />
+    <period level="1" seq="5" name="Shift" />
+    <period level="2" seq="5" name="Day" />
+    <date>2018-02-06T20:03:38-05:00</date>
+    <duration>37</duration>
+    <till>1</till>
+    <cashier sysid="1" empNum="1" posNum="101" period="5" drawer="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>18.50</trTotNoTax>
+    <trTotWTax>19.34</trTotWTax>
+    <trTotTax>0.84</trTotTax>
+    <trTax>
+      <taxAmts>
+        <taxAmt sysid="2" cat="Tax-12">15.00</taxAmt>
+        <taxRate sysid="2" cat="Tax-12">5.600</taxRate>
+        <taxNet sysid="2" cat="Tax-12">0.84</taxNet>
+        <taxAttribute sysid="2" cat="Tax-12">0</taxAttribute>
+      </taxAmts>
+    </trTax>
+    <trCurrTot locale="USD">19.34</trCurrTot>
+    <trSTotalizer>19.34</trSTotalizer>
+    <trGTotalizer>19.34</trGTotalizer>
+  </trValue>
+  <trExNetProds>
+    <trExNetProd>
+      <trENPPcode>913</trENPPcode>
+      <trENPAmount>-15.00</trENPAmount>
+      <trENPItemCnt>1</trENPItemCnt>
+    </trExNetProd>
+    <trExNetProd>
+      <trENPPcode>950</trENPPcode>
+      <trENPAmount>0.84</trENPAmount>
+      <trENPItemCnt>1</trENPItemCnt>
+    </trExNetProd>
+  </trExNetProds>
+  <trLines>
+    <trLine type="dept">
+      <trlTaxes>
+        <trlTax sysid="2" cat="Tax-12" reverse="0">15.00</trlTax>
+        <trlRate sysid="2" cat="Tax-12">5.600</trlRate>
+      </trlTaxes>
+      <trlFee>
+        <trlFeeNum>2</trlFeeNum>
+        <trlFeeAmount>3.50</trlFeeAmount>
+        <trlFeeName>FEE-2-NON-REFUNDABLE</trlFeeName>
+        <trlFeeDepNum>9957</trlFeeDepNum>
+        <trlFeeDepName>FEE DEPT</trlFeeDepName>
+        <trlFeeCat number="9995">TEST MDSE</trlFeeCat>
+        <trlFeeIdentifier />
+      </trlFee>
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="5504" type="norm">DEPT-5-TAX-FEE</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>15.00</trlUnitPrice>
+      <trlLineTot>18.50</trlLineTot>
+      <trlDesc>DEPT-5-TAX-FEE</trlDesc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline type="sale" sysid="1" locale="DOLLAR">
+      <trpPaycode mop="1" cat="0" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>15.00</trpAmt>
+    </trPayline>
+    <trPayline type="sale" sysid="1" locale="DOLLAR">
+      <trpPaycode mop="3" cat="1" nacstendercode="generic" nacstendersubcode="generic">CREDIT</trpPaycode>
+      <trpAmt>4.34</trpAmt>
+      <trpCardInfo isAboveSite="false">
+        <trpcAccount>371111FFFFF1005</trpcAccount>
+        <trpcCCName sysid="0">AMEX</trpcCCName>
+        <trpcHostID>buypass</trpcHostID>
+        <trpcAuthCode>987653</trpcAuthCode>
+        <trpcAuthSrc />
+        <trpcTicket>987653</trpcTicket>
+        <trpcEntryMeth>Swipe</trpcEntryMeth>
+        <trpcBatchNr>5</trpcBatchNr>
+        <trpcSeqNr>759</trpcSeqNr>
+        <trpcAuthDateTime>2018-02-06T20:03:38-05:00</trpcAuthDateTime>
+        <trpcRefNum>1011517909355154</trpcRefNum>
+        <trpcMerchInfo>
+          <trpcmMerchID>123456789</trpcmMerchID>
+          <trpcmTermID>9999999</trpcmTermID>
+        </trpcMerchInfo>
+      </trpCardInfo>
+    </trPayline>
+  </trPaylines>
+</trans>

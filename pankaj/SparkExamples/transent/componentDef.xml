@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<componentDef name="/isdApps/vsmsV2/sales/ent" version="V3">
+	<componentDef name="/isdApps/vsmsV2/mo/ent" version="V1" stereotype="none"/>
+	<componentDef name="/isdApps/vsmsV2/fuel/ent" version="V2" stereotype="none"/>
+	<componentDef name="/isdApps/vsmsV2/sys/db/pres" version="V2" stereotype="none"/>
+	<componentDef name="/isdApps/vsmsV2/sys/db/rdbms/pres" version="V2" stereotype="none"/>
+	<componentDef name="/isdApps/vsmsV2/sys/ent" version="V1" stereotype="none"/>
+	<componentDef name="/isdApps/vsmsV2/sys/entcore" version="V1" stereotype="none"/>
+	<componentDef name="/isdApps/vsmsV2/net/ent" version="V4" stereotype="none"/>
+	<componentDef name="/isdApps/vsmsV2/sys/error" version="V1" stereotype="none"/>	
+	<componentDef name="/isdApps/vsmsV2/sys/util" version="V4" stereotype="none"/>
+	<componentDef name="/isdApps/vsmsV2/sys/l10n" version="V1" stereotype="none"/>
+	<componentDef name="/isdApps/xml/java" version="V1" stereotype="none"/>
+	<componentDef name="/isdSys/mw/java/apis/qos/slf4j" version="V1" stereotype="none"/>
+	<componentDef name="/isdApps/vsmsV2/sys/l10n" version="V1" stereotype="none"/>		
+	<componentDef name="/isdSys/mw/java/apis/icu" version="V1" stereotype="none"/>
+</componentDef>

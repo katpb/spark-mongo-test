@@ -1,0 +1,173 @@
+<trans recalled="false" type="sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">215</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010215</trSeq>
+    </trTickNum>
+    <trUniqueSN>230</trUniqueSN>
+    <period level="0" name="HOUR" seq="20" />
+    <period level="1" name="Shift" seq="5" />
+    <period level="2" name="Day" seq="5" />
+    <date>2018-02-06T20:21:49-05:00</date>
+    <duration>102</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="5" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>115.00</trTotNoTax>
+    <trTotWTax>120.05</trTotWTax>
+    <trTotTax>5.05</trTotTax>
+    <trTax>
+      <taxAmts>
+        <taxAmt cat="Tax-11" sysid="1">17.08</taxAmt>
+        <taxRate cat="Tax-11" sysid="1">5.000</taxRate>
+        <taxNet cat="Tax-11" sysid="1">0.85</taxNet>
+        <taxAttribute cat="Tax-11" sysid="1">0</taxAttribute>
+        <taxForgivenAgainst cat="Tax-11" sysid="1">30.00</taxForgivenAgainst>
+        <taxForgiven cat="Tax-11" sysid="1">1.50</taxForgiven>
+        <taxableRebate cat="Tax-11" promoID="6" sysid="1">5.00</taxableRebate>
+        <taxableRebate cat="Tax-11" sysid="1">2.00</taxableRebate>
+        <taxAmt cat="Tax-12" sysid="2">74.92</taxAmt>
+        <taxRate cat="Tax-12" sysid="2">5.600</taxRate>
+        <taxNet cat="Tax-12" sysid="2">4.20</taxNet>
+        <taxAttribute cat="Tax-12" sysid="2">0</taxAttribute>
+      </taxAmts>
+    </trTax>
+    <trCurrTot locale="USD">120.05</trCurrTot>
+    <trSTotalizer>120.05</trSTotalizer>
+    <trGTotalizer>137.05</trGTotalizer>
+    <trFstmp>
+      <trFstmpTot>46.00</trFstmpTot>
+      <trFstmpTax>1.50</trFstmpTax>
+      <trFstmpChg>0.00</trFstmpChg>
+      <trFstmpTnd>30.00</trFstmpTnd>
+    </trFstmp>
+  </trValue>
+  <trLines>
+    <trLine type="plu">
+      <trlTaxes>
+        <trlTax cat="Tax-11" reverse="0" sysid="1">38.59</trlTax>
+        <trlRate cat="Tax-11" sysid="1">5.000</trlRate>
+        <trlTax cat="Tax-12" reverse="0" sysid="2">36.59</trlTax>
+        <trlRate cat="Tax-12" sysid="2">5.600</trlRate>
+      </trlTaxes>
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlMatch />
+        <taxableRebate cat="Tax-11" sysid="1">2.00</taxableRebate>
+        <taxableRebate cat="Tax-11" promoID="6" sysid="1">5.00</taxableRebate>
+      </trlFlags>
+      <trlDept number="9996" type="norm">TEST B DEPT</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>42.00</trlUnitPrice>
+      <trlLineTot>42.00</trlLineTot>
+      <trlDesc>COMBO-PLU-11</trlDesc>
+      <trlUPC>00000000070119</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+      <trlMixMatches>
+        <trlMatchLine>
+          <trlMatchName>6-COMBO-TAX-REBATE</trlMatchName>
+          <trlMatchQuantity>1</trlMatchQuantity>
+          <trlMatchPrice>36.59</trlMatchPrice>
+          <trlMatchMixes>100</trlMatchMixes>
+          <trlPromoAmount>5.41</trlPromoAmount>
+          <trlPromotionID promotype="combinationOffer">6</trlPromotionID>
+        </trlMatchLine>
+      </trlMixMatches>
+    </trLine>
+    <trLine type="plu">
+      <trlTaxes>
+        <trlTax cat="Tax-12" reverse="0" sysid="2">38.33</trlTax>
+        <trlRate cat="Tax-12" sysid="2">5.600</trlRate>
+      </trlTaxes>
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlMatch />
+        <taxableRebate cat="Tax-11" promoID="6" sysid="1">5.00</taxableRebate>
+      </trlFlags>
+      <trlDept number="5501" type="norm">DEPT-2-TAX</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>44.00</trlUnitPrice>
+      <trlLineTot>44.00</trlLineTot>
+      <trlDesc>COMBO-PLU-12</trlDesc>
+      <trlUPC>00000000070126</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+      <trlMixMatches>
+        <trlMatchLine>
+          <trlMatchName>6-COMBO-TAX-REBATE</trlMatchName>
+          <trlMatchQuantity>1</trlMatchQuantity>
+          <trlMatchPrice>38.33</trlMatchPrice>
+          <trlMatchMixes>100</trlMatchMixes>
+          <trlPromoAmount>5.67</trlPromoAmount>
+          <trlPromotionID promotype="combinationOffer">6</trlPromotionID>
+        </trlMatchLine>
+      </trlMixMatches>
+    </trLine>
+    <trLine type="plu">
+      <trlTaxes>
+        <trlTax cat="Tax-11" reverse="0" sysid="1">40.08</trlTax>
+        <trlRate cat="Tax-11" sysid="1">5.000</trlRate>
+      </trlTaxes>
+      <trlFlags>
+        <trlFstmp />
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlMatch />
+        <taxableRebate cat="Tax-11" promoID="6" sysid="1">5.00</taxableRebate>
+      </trlFlags>
+      <trlDept number="9996" type="norm">TEST B DEPT</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>46.00</trlUnitPrice>
+      <trlLineTot>46.00</trlLineTot>
+      <trlDesc>COMBO-PLU-13</trlDesc>
+      <trlUPC>00000000070133</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+      <trlMixMatches>
+        <trlMatchLine>
+          <trlMatchName>6-COMBO-TAX-REBATE</trlMatchName>
+          <trlMatchQuantity>1</trlMatchQuantity>
+          <trlMatchPrice>40.08</trlMatchPrice>
+          <trlMatchMixes>100</trlMatchMixes>
+          <trlPromoAmount>5.92</trlPromoAmount>
+          <trlPromotionID promotype="combinationOffer">6</trlPromotionID>
+        </trlMatchLine>
+      </trlMixMatches>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="13" mop="8" nacstendercode="generic" nacstendersubcode="generic">FOODSTAMP</trpPaycode>
+      <trpAmt>30.00</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>91.00</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">Change</trpPaycode>
+      <trpAmt>-0.95</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

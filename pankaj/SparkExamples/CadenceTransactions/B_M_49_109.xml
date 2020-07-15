@@ -1,0 +1,153 @@
+<trans recalled="false" type="sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">101121</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010121</trSeq>
+    </trTickNum>
+    <trUniqueSN>136</trUniqueSN>
+    <period level="0" name="HOUR" seq="23" />
+    <period level="1" name="Shift" seq="1" />
+    <period level="2" name="Day" seq="1" />
+    <date>2019-01-17T23:05:56-05:00</date>
+    <duration>25</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="2" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>74.49</trTotNoTax>
+    <trTotWTax>78.51</trTotWTax>
+    <trTotTax>4.02</trTotTax>
+    <trTax>
+      <taxAmts>
+        <taxAmt cat="Tax-11" sysid="1">3.75</taxAmt>
+        <taxRate cat="Tax-11" sysid="1">5.000</taxRate>
+        <taxNet cat="Tax-11" sysid="1">0.19</taxNet>
+        <taxAttribute cat="Tax-11" sysid="1">0</taxAttribute>
+        <taxableRebate cat="Tax-11" sysid="1">3.75</taxableRebate>
+        <taxAmt cat="Tax-12" sysid="2">3.75</taxAmt>
+        <taxRate cat="Tax-12" sysid="2">5.600</taxRate>
+        <taxNet cat="Tax-12" sysid="2">0.21</taxNet>
+        <taxAttribute cat="Tax-12" sysid="2">0</taxAttribute>
+        <taxableRebate cat="Tax-12" sysid="2">3.75</taxableRebate>
+        <taxAmt cat="Tax-14" sysid="4">24.50</taxAmt>
+        <taxRate cat="Tax-14" sysid="4">7.000</taxRate>
+        <taxNet cat="Tax-14" sysid="4">1.72</taxNet>
+        <taxAttribute cat="Tax-14" sysid="4">0</taxAttribute>
+        <taxAmt cat="Tax-15" sysid="5">24.50</taxAmt>
+        <taxRate cat="Tax-15" sysid="5">7.750</taxRate>
+        <taxNet cat="Tax-15" sysid="5">1.90</taxNet>
+        <taxAttribute cat="Tax-15" sysid="5">0</taxAttribute>
+      </taxAmts>
+    </trTax>
+    <trCurrTot locale="USD">78.51</trCurrTot>
+    <trSTotalizer>78.51</trSTotalizer>
+    <trGTotalizer>78.75</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="dept">
+      <trlTaxes />
+      <trlFee>
+        <trlFeeNum>1</trlFeeNum>
+        <trlFeeAmount>6.50</trlFeeAmount>
+        <trlFeeName>FEE-1-REFUNDABLE</trlFeeName>
+        <trlFeeDepNum>9957</trlFeeDepNum>
+        <trlFeeDepName>FEE DEPT</trlFeeDepName>
+        <trlFeeCat number="9995">TEST MDSE</trlFeeCat>
+        <trlFeeIdentifier />
+      </trlFee>
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="5512" type="norm">FEE-MANUAL-DISCOUNT-DEPT</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlDisc type="pct">0.24</trlDisc>
+      <trlUnitPrice>20.00</trlUnitPrice>
+      <trlLineTot>26.26</trlLineTot>
+      <trlDesc>FEE-MANUAL-DISCOUNT-DEPT</trlDesc>
+    </trLine>
+    <trLine type="plu">
+      <trlTaxes>
+        <trlTax cat="Tax-11" reverse="0" sysid="1">28.25</trlTax>
+        <trlRate cat="Tax-11" sysid="1">5.000</trlRate>
+        <trlTax cat="Tax-12" reverse="0" sysid="2">28.25</trlTax>
+        <trlRate cat="Tax-12" sysid="2">5.600</trlRate>
+        <trlTax cat="Tax-14" reverse="0" sysid="4">24.50</trlTax>
+        <trlRate cat="Tax-14" sysid="4">7.000</trlRate>
+        <trlTax cat="Tax-15" reverse="0" sysid="5">24.50</trlTax>
+        <trlRate cat="Tax-15" sysid="5">7.750</trlRate>
+      </trlTaxes>
+      <trlFee>
+        <trlFeeNum>2</trlFeeNum>
+        <trlFeeAmount>3.50</trlFeeAmount>
+        <trlFeeName>FEE-2-NON-REFUNDABLE</trlFeeName>
+        <trlFeeDepNum>9957</trlFeeDepNum>
+        <trlFeeDepName>FEE DEPT</trlFeeDepName>
+        <trlFeeCat number="9995">TEST MDSE</trlFeeCat>
+        <trlFeeIdentifier />
+      </trlFee>
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlFuelSale />
+        <taxableRebate cat="Tax-11" sysid="1">3.75</taxableRebate>
+        <taxableRebate cat="Tax-12" sysid="2">3.75</taxableRebate>
+      </trlFlags>
+      <trlDept number="9997" type="norm">TEST C DEPT</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>24.50</trlUnitPrice>
+      <trlLineTot>28.00</trlLineTot>
+      <trlDesc>PLU-AJ</trlDesc>
+      <trlUPC>00000000091206</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+    </trLine>
+    <trLine type="postFuel">
+      <trlTaxes />
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="9998" type="fuel">MANUAL FUEL DEPT</trlDept>
+      <trlCat number="9994">FUEL</trlCat>
+      <trlNetwCode>1</trlNetwCode>
+      <trlQty>18.046</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>1.121</trlUnitPrice>
+      <trlLineTot>20.23</trlLineTot>
+      <trlFuel type="norm">
+        <trlFuelSeq>7</trlFuelSeq>
+        <fuelPosition>1</fuelPosition>
+        <trlFuelDepst>0.00</trlFuelDepst>
+        <fuelProd NAXMLFuelGradeID="1" sysid="1">PETR-UNLD1</fuelProd>
+        <fuelSvcMode sysid="1">SELF</fuelSvcMode>
+        <fuelMOP sysid="2">CREDIT</fuelMOP>
+        <fuelVolume>18.046</fuelVolume>
+        <basePrice>1.121</basePrice>
+      </trlFuel>
+      <trlDesc>PETR-UNLD1 CR #01</trlDesc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>90.00</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">Change</trpPaycode>
+      <trpAmt>-11.49</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

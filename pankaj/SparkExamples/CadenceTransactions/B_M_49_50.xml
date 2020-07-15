@@ -1,0 +1,124 @@
+<trans recalled="false" type="sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">216</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010216</trSeq>
+    </trTickNum>
+    <trUniqueSN>231</trUniqueSN>
+    <period level="0" name="HOUR" seq="20" />
+    <period level="1" name="Shift" seq="5" />
+    <period level="2" name="Day" seq="5" />
+    <date>2018-02-06T20:22:25-05:00</date>
+    <duration>29</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="5" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>20.93</trTotNoTax>
+    <trTotWTax>20.93</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">20.93</trCurrTot>
+    <trSTotalizer>20.93</trSTotalizer>
+    <trGTotalizer>23.93</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="plu">
+      <trlTaxes />
+      <trlFee>
+        <trlFeeNum>1</trlFeeNum>
+        <trlFeeAmount>5.00</trlFeeAmount>
+        <trlFeeName>FEE-1-REFUNDABLE</trlFeeName>
+        <trlFeeDepNum>9957</trlFeeDepNum>
+        <trlFeeDepName>FEE DEPT</trlFeeDepName>
+        <trlFeeCat number="9995">TEST MDSE</trlFeeCat>
+        <trlFeeIdentifier />
+      </trlFee>
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlMatch />
+      </trlFlags>
+      <trlDept number="1" type="norm">TAXABLE</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>8.75</trlUnitPrice>
+      <trlLineTot>13.75</trlLineTot>
+      <trlDesc>MIX-MT-PLU-1</trlDesc>
+      <trlUPC>00000000080019</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+      <trlMixMatches>
+        <trlMatchLine>
+          <trlMatchName>1-MIX-TOTL-PKGE-PRICE</trlMatchName>
+          <trlMatchQuantity>1</trlMatchQuantity>
+          <trlMatchPrice>7.29</trlMatchPrice>
+          <trlMatchMixes>100</trlMatchMixes>
+          <trlPromoAmount>1.46</trlPromoAmount>
+          <trlPromotionID promotype="mixAndMatchOffer">1</trlPromotionID>
+        </trlMatchLine>
+      </trlMixMatches>
+    </trLine>
+    <trLine type="plu">
+      <trlTaxes />
+      <trlFee>
+        <trlFeeNum>3</trlFeeNum>
+        <trlFeeAmount>0.93</trlFeeAmount>
+        <trlFeeName>FEE-3-PERCENTAGE</trlFeeName>
+        <trlFeeDepNum>9957</trlFeeDepNum>
+        <trlFeeDepName>FEE DEPT</trlFeeDepName>
+        <trlFeeCat number="9995">TEST MDSE</trlFeeCat>
+        <trlFeeIdentifier />
+      </trlFee>
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlMatch />
+      </trlFlags>
+      <trlDept number="2" type="norm">NON-TAXABLE</trlDept>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>9.25</trlUnitPrice>
+      <trlLineTot>10.18</trlLineTot>
+      <trlDesc>MIX-MT-PLU-2</trlDesc>
+      <trlUPC>00000000080026</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+      <trlMixMatches>
+        <trlMatchLine>
+          <trlMatchName>1-MIX-TOTL-PKGE-PRICE</trlMatchName>
+          <trlMatchQuantity>1</trlMatchQuantity>
+          <trlMatchPrice>7.71</trlMatchPrice>
+          <trlMatchMixes>100</trlMatchMixes>
+          <trlPromoAmount>1.54</trlPromoAmount>
+          <trlPromotionID promotype="mixAndMatchOffer">1</trlPromotionID>
+        </trlMatchLine>
+      </trlMixMatches>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="13" mop="8" nacstendercode="generic" nacstendersubcode="generic">FOODSTAMP</trpPaycode>
+      <trpAmt>5.00</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>20.00</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">Change</trpPaycode>
+      <trpAmt>-4.07</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

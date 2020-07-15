@@ -1,0 +1,81 @@
+<trans fuelPrepay="true" recalled="false" type="network sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">101104</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010104</trSeq>
+    </trTickNum>
+    <trUniqueSN>113</trUniqueSN>
+    <period level="0" name="HOUR" seq="22" />
+    <period level="1" name="Shift" seq="1" />
+    <period level="2" name="Day" seq="1" />
+    <date>2019-01-17T22:50:18-05:00</date>
+    <duration>43</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="2" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+    <trFuelOnlyCst />
+  </trHeader>
+  <trValue>
+    <trTotNoTax>26.00</trTotNoTax>
+    <trTotWTax>26.00</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">26.00</trCurrTot>
+    <trSTotalizer>26.00</trSTotalizer>
+    <trGTotalizer>26.00</trGTotalizer>
+  </trValue>
+  <trExNetProds>
+    <trExNetProd>
+      <trENPPcode>913</trENPPcode>
+      <trENPAmount>-15.15</trENPAmount>
+      <trENPItemCnt>1</trENPItemCnt>
+    </trExNetProd>
+  </trExNetProds>
+  <trLines>
+    <trLine type="preFuel">
+      <trlTaxes />
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelOnly />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="9999" type="fuel">FUEL DEPOSIT</trlDept>
+      <trlCat number="9999">FUEL DEPOSIT</trlCat>
+      <trlNetwCode>0</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>0.00</trlUnitPrice>
+      <trlLineTot>26.00</trlLineTot>
+      <trlDesc>PREPAY CA #13</trlDesc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>15.15</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" pending="true" sysid="1" type="sale">
+      <trpPaycode cat="1" mop="3" nacstendercode="generic" nacstendersubcode="generic">CREDIT</trpPaycode>
+      <trpAmt>10.85</trpAmt>
+      <trpCardInfo isAboveSite="false">
+        <trpcAccount>601100FFFFFF7297</trpcAccount>
+        <trpcCCName sysid="0">DISCOVER</trpcCCName>
+        <trpcHostID>buypass</trpcHostID>
+        <trpcAuthCode>987651</trpcAuthCode>
+        <trpcAuthSrc />
+        <trpcTicket>987651</trpcTicket>
+        <trpcEntryMeth>Swipe</trpcEntryMeth>
+        <trpcBatchNr>2</trpcBatchNr>
+        <trpcSeqNr>535</trpcSeqNr>
+        <trpcAuthDateTime>2019-01-17T22:50:15-05:00</trpcAuthDateTime>
+        <trpcRefNum>1011547777343945</trpcRefNum>
+        <trpcMerchInfo>
+          <trpcmMerchID>123456789</trpcmMerchID>
+          <trpcmTermID>9999999</trpcmTermID>
+        </trpcMerchInfo>
+      </trpCardInfo>
+    </trPayline>
+  </trPaylines>
+</trans>

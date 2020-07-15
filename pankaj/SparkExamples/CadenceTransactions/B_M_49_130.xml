@@ -1,0 +1,66 @@
+<trans recalled="false" type="refund sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">296</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010296</trSeq>
+    </trTickNum>
+    <trUniqueSN>325</trUniqueSN>
+    <period level="0" name="HOUR" seq="21" />
+    <period level="1" name="Shift" seq="5" />
+    <period level="2" name="Day" seq="5" />
+    <date>2018-02-06T21:41:02-05:00</date>
+    <duration>1</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="5" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>-63.33</trTotNoTax>
+    <trTotWTax>-66.88</trTotWTax>
+    <trTotTax>-3.55</trTotTax>
+    <trTax>
+      <taxAmts>
+        <taxAmt cat="Tax-12" sysid="2">-63.33</taxAmt>
+        <taxRate cat="Tax-12" sysid="2">5.600</taxRate>
+        <taxNet cat="Tax-12" sysid="2">-3.55</taxNet>
+        <taxAttribute cat="Tax-12" sysid="2">0</taxAttribute>
+      </taxAmts>
+      <negTaxAmts>
+        <taxAmt cat="Tax-12" sysid="2">-63.33</taxAmt>
+        <taxRate cat="Tax-12" sysid="2">5.600</taxRate>
+        <taxNet cat="Tax-12" sysid="2">-3.55</taxNet>
+        <taxAttribute cat="Tax-12" sysid="2">0</taxAttribute>
+      </negTaxAmts>
+    </trTax>
+    <trCurrTot locale="USD">-66.88</trCurrTot>
+    <trSTotalizer>-66.88</trSTotalizer>
+    <trGTotalizer>66.88</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="dept">
+      <trlTaxes>
+        <trlTax cat="Tax-12" reverse="0" sysid="2">-63.33</trlTax>
+        <trlRate cat="Tax-12" sysid="2">5.600</trlRate>
+      </trlTaxes>
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="30" type="norm">CHIPS</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>440</trlNetwCode>
+      <trlQty>3</trlQty>
+      <trlSign>-1.00</trlSign>
+      <trlUnitPrice>21.11</trlUnitPrice>
+      <trlLineTot>-63.33</trlLineTot>
+      <trlDesc>CHIPS</trlDesc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="cancel">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>66.88</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

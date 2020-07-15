@@ -1,0 +1,19 @@
+<trans choice="out" type="clock">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">283</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010283</trSeq>
+    </trTickNum>
+    <period level="0" name="HOUR" seq="21" />
+    <period level="1" name="Shift" seq="5" />
+    <period level="2" name="Day" seq="5" />
+    <date>2018-02-06T21:35:26-05:00</date>
+    <duration>1</duration>
+    <cashier empNum="1" period="5" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+    <clockCashier automatic="0">1</clockCashier>
+    <clockDate>2018-02-06T21:35:26-05:00</clockDate>
+    <jobCode>456</jobCode>
+  </trHeader>
+</trans>

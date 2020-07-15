@@ -1,0 +1,105 @@
+<trans recalled="false" type="network sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">10185</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010085</trSeq>
+    </trTickNum>
+    <trUniqueSN>93</trUniqueSN>
+    <period level="0" name="HOUR" seq="1" />
+    <period level="1" name="Shift" seq="48" />
+    <period level="2" name="Day" seq="48" />
+    <date>2020-01-30T01:57:10-05:00</date>
+    <duration>8</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="1" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+    <trFuelOnlyCst />
+    <popDiscTran />
+  </trHeader>
+  <trValue>
+    <trTotNoTax>15.55</trTotNoTax>
+    <trTotWTax>15.55</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">15.55</trCurrTot>
+    <trSTotalizer>15.55</trSTotalizer>
+    <trGTotalizer>21.23</trGTotalizer>
+  </trValue>
+  <trExNetProds>
+    <trExNetProd>
+      <trENPPcode>1</trENPPcode>
+      <trENPAmount>5.68</trENPAmount>
+      <trENPItemCnt>0</trENPItemCnt>
+    </trExNetProd>
+    <trExNetProd>
+      <trENPPcode>900</trENPPcode>
+      <trENPAmount>-5.68</trENPAmount>
+      <trENPItemCnt>1</trENPItemCnt>
+    </trExNetProd>
+  </trExNetProds>
+  <trLines>
+    <trLine type="postFuel">
+      <trlTaxes />
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelOnly />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="9998" type="fuel">MANUAL FUEL DEPT</trlDept>
+      <trlCat number="9994">FUEL</trlCat>
+      <trlNetwCode>1</trlNetwCode>
+      <trlQty>18.938</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>1.121</trlUnitPrice>
+      <trlLineTot>15.55</trlLineTot>
+      <trlFuel type="norm">
+        <trlFuelSeq>4</trlFuelSeq>
+        <fuelPosition>1</fuelPosition>
+        <trlFuelDepst>0.00</trlFuelDepst>
+        <fuelProd NAXMLFuelGradeID="1" sysid="1">PETR-UNLD1</fuelProd>
+        <fuelSvcMode sysid="1">SELF</fuelSvcMode>
+        <fuelMOP sysid="2">CREDIT</fuelMOP>
+        <fuelVolume>18.938</fuelVolume>
+        <basePrice>1.121</basePrice>
+      </trlFuel>
+      <trlDesc>PETR-UNLD1 CR #01</trlDesc>
+      <trlPopDisc>
+        <trlpdDescrip>POP-DISCNT-3</trlpdDescrip>
+        <trlpdPGUnit>0.300</trlpdPGUnit>
+        <trlpdGrade>1</trlpdGrade>
+        <trlpdGradeName>PETR-UNLD1</trlpdGradeName>
+        <trlpdVolume>18.938</trlpdVolume>
+        <trlpdAmount>5.68</trlpdAmount>
+        <trlpdTime type="2">post</trlpdTime>
+        <trlpdMatch type="3">3</trlpdMatch>
+        <trlpdFuelDef>3</trlpdFuelDef>
+        <trlpdDiscProgramId>3</trlpdDiscProgramId>
+      </trlPopDisc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="1" mop="3" nacstendercode="generic" nacstendersubcode="generic">CREDIT</trpPaycode>
+      <trpAmt>15.55</trpAmt>
+      <trpCardInfo isAboveSite="false">
+        <trpcAccount>371111FFFFF1005</trpcAccount>
+        <trpcCCName sysid="0">AMEX</trpcCCName>
+        <trpcHostID>buypass</trpcHostID>
+        <trpcAuthCode>123628</trpcAuthCode>
+        <trpcAuthSrc />
+        <trpcTicket>123628</trpcTicket>
+        <trpcEntryMeth>Swipe</trpcEntryMeth>
+        <trpcBatchNr>109</trpcBatchNr>
+        <trpcSeqNr>64873</trpcSeqNr>
+        <trpcAuthDateTime>2020-01-30T01:57:10-05:00</trpcAuthDateTime>
+        <trpcRefNum>1011580363339372</trpcRefNum>
+        <trpcMerchInfo>
+          <trpcmMerchID>99999</trpcmMerchID>
+          <trpcmTermID>99999</trpcmTermID>
+        </trpcMerchInfo>
+      </trpCardInfo>
+    </trPayline>
+  </trPaylines>
+</trans>

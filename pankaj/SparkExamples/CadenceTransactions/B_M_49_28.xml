@@ -1,0 +1,84 @@
+<trans type="network sale" recalled="false">
+  <trHeader>
+    <termMsgSN type="FINANCIAL" term="101">195</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010195</trSeq>
+    </trTickNum>
+    <trUniqueSN>210</trUniqueSN>
+    <period level="0" seq="19" name="HOUR" />
+    <period level="1" seq="5" name="Shift" />
+    <period level="2" seq="5" name="Day" />
+    <date>2018-02-06T19:59:06-05:00</date>
+    <duration>23</duration>
+    <till>1</till>
+    <cashier sysid="1" empNum="1" posNum="101" period="5" drawer="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>12.00</trTotNoTax>
+    <trTotWTax>12.60</trTotWTax>
+    <trTotTax>0.60</trTotTax>
+    <trTax>
+      <taxAmts>
+        <taxAmt sysid="1" cat="Tax-11">12.00</taxAmt>
+        <taxRate sysid="1" cat="Tax-11">5.000</taxRate>
+        <taxNet sysid="1" cat="Tax-11">0.60</taxNet>
+        <taxAttribute sysid="1" cat="Tax-11">0</taxAttribute>
+      </taxAmts>
+    </trTax>
+    <trCurrTot locale="USD">12.60</trCurrTot>
+    <trSTotalizer>12.60</trSTotalizer>
+    <trGTotalizer>12.60</trGTotalizer>
+  </trValue>
+  <trExNetProds>
+    <trExNetProd>
+      <trENPPcode>950</trENPPcode>
+      <trENPAmount>0.60</trENPAmount>
+      <trENPItemCnt>1</trENPItemCnt>
+    </trExNetProd>
+  </trExNetProds>
+  <trLines>
+    <trLine type="dept">
+      <trlTaxes>
+        <trlTax sysid="1" cat="Tax-11" reverse="0">12.00</trlTax>
+        <trlRate sysid="1" cat="Tax-11">5.000</trlRate>
+      </trlTaxes>
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="5501" type="norm">DEPT-2-TAX</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>12.00</trlUnitPrice>
+      <trlLineTot>12.00</trlLineTot>
+      <trlDesc>DEPT-2-TAX</trlDesc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline type="sale" sysid="1" locale="DOLLAR">
+      <trpPaycode mop="3" cat="1" nacstendercode="generic" nacstendersubcode="generic">CREDIT</trpPaycode>
+      <trpAmt>12.60</trpAmt>
+      <trpCardInfo isAboveSite="false">
+        <trpcAccount>401280FFF0067</trpcAccount>
+        <trpcCCName sysid="0">VISA</trpcCCName>
+        <trpcHostID>buypass</trpcHostID>
+        <trpcAuthCode>987650</trpcAuthCode>
+        <trpcAuthSrc />
+        <trpcTicket>987650</trpcTicket>
+        <trpcEntryMeth>Swipe</trpcEntryMeth>
+        <trpcBatchNr>5</trpcBatchNr>
+        <trpcSeqNr>748</trpcSeqNr>
+        <trpcAuthDateTime>2018-02-06T19:59:06-05:00</trpcAuthDateTime>
+        <trpcRefNum>1011517909355144</trpcRefNum>
+        <trpcMerchInfo>
+          <trpcmMerchID>123456789</trpcmMerchID>
+          <trpcmTermID>9999999</trpcmTermID>
+        </trpcMerchInfo>
+      </trpCardInfo>
+    </trPayline>
+  </trPaylines>
+</trans>

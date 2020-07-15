@@ -1,0 +1,60 @@
+<trans recalled="false" type="sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">10153</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010053</trSeq>
+    </trTickNum>
+    <trUniqueSN>54</trUniqueSN>
+    <period level="0" name="HOUR" seq="22" />
+    <period level="1" name="Shift" seq="1" />
+    <period level="2" name="Day" seq="1" />
+    <date>2019-01-17T22:01:17-05:00</date>
+    <duration>32</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="2" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>38.95</trTotNoTax>
+    <trTotWTax>38.95</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">38.95</trCurrTot>
+    <trSTotalizer>38.95</trSTotalizer>
+    <trGTotalizer>41.00</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="dept">
+      <trlTaxes />
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="5509" type="norm">DEPT-9-MANUAL-DISCOUNT</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlDisc type="pct">2.05</trlDisc>
+      <trlUnitPrice>41.00</trlUnitPrice>
+      <trlLineTot>38.95</trlLineTot>
+      <trlDesc>DEPT-9-MANUAL-DISCOUNT</trlDesc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="7" mop="21" nacstendercode="generic" nacstendersubcode="generic">TAXABLE-COUPON</trpPaycode>
+      <trpAmt>15.00</trpAmt>
+      <trpCouponEntryMethod>MANUAL</trpCouponEntryMethod>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>30.00</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">Change</trpPaycode>
+      <trpAmt>-6.05</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

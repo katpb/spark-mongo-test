@@ -1,0 +1,114 @@
+<trans recalled="false" type="network sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">22</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010022</trSeq>
+    </trTickNum>
+    <trUniqueSN>22</trUniqueSN>
+    <period level="0" name="HOUR" seq="18" />
+    <period level="1" name="SHIFT" seq="1" />
+    <period level="2" name="DAILY" seq="1" />
+    <date>2018-03-14T18:07:40-04:00</date>
+    <duration>39</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="1" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>27.55</trTotNoTax>
+    <trTotWTax>27.55</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">27.55</trCurrTot>
+    <trSTotalizer>27.55</trSTotalizer>
+    <trGTotalizer>27.75</trGTotalizer>
+  </trValue>
+  <trLoyalty>
+    <trLoyaltyProgram programID="PROGRAM01">
+      <trloSubTotal>27.55</trloSubTotal>
+      <trloAutoDisc>0.15</trloAutoDisc>
+      <trloCustDisc>0.00</trloCustDisc>
+      <trloAccount>2000002819718683161</trloAccount>
+      <trloEntryMeth>Swipe</trloEntryMeth>
+      <trloAuthReply></trloAuthReply>
+    </trLoyaltyProgram>
+  </trLoyalty>
+  <trExNetProds>
+    <trExNetProd>
+      <trENPPcode>900</trENPPcode>
+      <trENPAmount>-0.15</trENPAmount>
+      <trENPItemCnt>1</trENPItemCnt>
+    </trExNetProd>
+    <trExNetProd>
+      <trENPPcode>400</trENPPcode>
+      <trENPAmount>0.20</trENPAmount>
+      <trENPItemCnt>0</trENPItemCnt>
+    </trExNetProd>
+    <trExNetProd>
+      <trENPPcode>900</trENPPcode>
+      <trENPAmount>-0.20</trENPAmount>
+      <trENPItemCnt>1</trENPItemCnt>
+    </trExNetProd>
+  </trExNetProds>
+  <trLines>
+    <trLine type="plu">
+      <trlTaxes />
+      <trlFee>
+        <trlFeeNum>1</trlFeeNum>
+        <trlFeeAmount>6.50</trlFeeAmount>
+        <trlFeeName>FEE-1-REFUNDABLE</trlFeeName>
+        <trlFeeDepNum>9957</trlFeeDepNum>
+        <trlFeeDepName>FEE DEPT</trlFeeDepName>
+        <trlFeeCat number="9995">TEST MDSE</trlFeeCat>
+        <trlFeeIdentifier />
+      </trlFee>
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlLoyLnDisc />
+      </trlFlags>
+      <trlDept number="2" type="norm">NON-TAXABLE</trlDept>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>21.25</trlUnitPrice>
+      <trlLineTot>27.55</trlLineTot>
+      <trlDesc>PLU-AG</trlDesc>
+      <trlUPC>00000000091176</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+      <trloLnItemDisc programID="PROGRAM01">
+        <discAmt>0.20</discAmt>
+        <qty>1</qty>
+        <taxCred>0</taxCred>
+      </trloLnItemDisc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="1" mop="3" nacstendercode="generic" nacstendersubcode="generic">CREDIT</trpPaycode>
+      <trpAmt>27.40</trpAmt>
+      <trpCardInfo isAboveSite="false">
+        <trpcAccount>601100FFFFFF7297</trpcAccount>
+        <trpcCCName sysid="0">DISCOVER</trpcCCName>
+        <trpcHostID>buypass</trpcHostID>
+        <trpcAuthCode>987652</trpcAuthCode>
+        <trpcAuthSrc />
+        <trpcTicket>987652</trpcTicket>
+        <trpcEntryMeth>Swipe</trpcEntryMeth>
+        <trpcBatchNr>1</trpcBatchNr>
+        <trpcSeqNr>169</trpcSeqNr>
+        <trpcAuthDateTime>2018-03-14T18:07:40-04:00</trpcAuthDateTime>
+        <trpcRefNum>1011521061375020</trpcRefNum>
+        <trpcMerchInfo>
+          <trpcmMerchID>123456789</trpcmMerchID>
+          <trpcmTermID>9999999</trpcmTermID>
+        </trpcMerchInfo>
+      </trpCardInfo>
+    </trPayline>
+  </trPaylines>
+</trans>

@@ -1,0 +1,2 @@
+build.packages=com.verifone.isd.vsms2.sales.ent.*
+test.exclude=**/TestTax$*.*

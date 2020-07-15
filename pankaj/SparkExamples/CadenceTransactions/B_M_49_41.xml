@@ -1,0 +1,66 @@
+<trans recalled="false" type="sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">207</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010207</trSeq>
+    </trTickNum>
+    <trUniqueSN>222</trUniqueSN>
+    <period level="0" name="HOUR" seq="20" />
+    <period level="1" name="Shift" seq="5" />
+    <period level="2" name="Day" seq="5" />
+    <date>2018-02-06T20:11:24-05:00</date>
+    <duration>2</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="5" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+    <trFuelOnlyCst />
+  </trHeader>
+  <trValue>
+    <trTotNoTax>30.15</trTotNoTax>
+    <trTotWTax>30.15</trTotWTax>
+    <trTotTax>0.00</trTotTax>
+    <trTax />
+    <trCurrTot locale="USD">30.15</trCurrTot>
+    <trSTotalizer>30.15</trSTotalizer>
+    <trGTotalizer>30.15</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="dept">
+      <trlTaxes />
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelOnly />
+      </trlFlags>
+      <trlDept number="9998" type="fuel">MANUAL FUEL DEPT</trlDept>
+      <trlCat number="9994">FUEL</trlCat>
+      <trlNetwCode>3</trlNetwCode>
+      <trlQty>1.00</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>3.121</trlUnitPrice>
+      <trlLineTot>30.15</trlLineTot>
+      <trlFuel type="manualFuel">
+        <trlFuelSeq>0</trlFuelSeq>
+        <fuelPosition>2</fuelPosition>
+        <trlFuelDepst>0.00</trlFuelDepst>
+        <fuelProd NAXMLFuelGradeID="3" sysid="3">DIESEL-LD3</fuelProd>
+        <fuelSvcMode sysid="1">SELF</fuelSvcMode>
+        <fuelMOP sysid="2">CREDIT</fuelMOP>
+        <fuelVolume>9.660</fuelVolume>
+        <basePrice>3.121</basePrice>
+      </trlFuel>
+      <trlDesc>DIESEL-LD3 #02</trlDesc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>35.00</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">Change</trpPaycode>
+      <trpAmt>-4.85</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

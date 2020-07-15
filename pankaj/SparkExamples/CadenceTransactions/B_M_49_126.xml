@@ -1,0 +1,141 @@
+<trans recalled="false" type="sale">
+  <trHeader>
+    <termMsgSN term="101" type="FINANCIAL">101138</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010138</trSeq>
+    </trTickNum>
+    <trUniqueSN>153</trUniqueSN>
+    <period level="0" name="HOUR" seq="23" />
+    <period level="1" name="Shift" seq="1" />
+    <period level="2" name="Day" seq="1" />
+    <date>2019-01-17T23:13:33-05:00</date>
+    <duration>14</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="1" period="2" posNum="101" sysid="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>93.75</trTotNoTax>
+    <trTotWTax>98.92</trTotWTax>
+    <trTotTax>5.17</trTotTax>
+    <trTax>
+      <taxAmts>
+        <taxAmt cat="Tax-11" sysid="1">59.75</taxAmt>
+        <taxRate cat="Tax-11" sysid="1">5.000</taxRate>
+        <taxNet cat="Tax-11" sysid="1">2.99</taxNet>
+        <taxAttribute cat="Tax-11" sysid="1">0</taxAttribute>
+        <taxableRebate cat="Tax-11" sysid="1">5.00</taxableRebate>
+        <taxAmt cat="Tax-12" sysid="2">39.00</taxAmt>
+        <taxRate cat="Tax-12" sysid="2">5.600</taxRate>
+        <taxNet cat="Tax-12" sysid="2">2.18</taxNet>
+        <taxAttribute cat="Tax-12" sysid="2">0</taxAttribute>
+      </taxAmts>
+    </trTax>
+    <trCurrTot locale="USD">98.92</trCurrTot>
+    <trSTotalizer>98.92</trSTotalizer>
+    <trGTotalizer>138.92</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="plu">
+      <trlTaxes>
+        <trlTax cat="Tax-11" reverse="0" sysid="1">54.75</trlTax>
+        <trlRate cat="Tax-11" sysid="1">5.000</trlRate>
+      </trlTaxes>
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="1" type="norm">TAXABLE</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>3</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>18.25</trlUnitPrice>
+      <trlLineTot>54.75</trlLineTot>
+      <trlDesc>PLU-AE</trlDesc>
+      <trlUPC>00000000091152</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+    </trLine>
+    <trLine type="plu">
+      <trlTaxes>
+        <trlTax cat="Tax-11" reverse="0" sysid="1">44.00</trlTax>
+        <trlRate cat="Tax-11" sysid="1">5.000</trlRate>
+        <trlTax cat="Tax-12" reverse="0" sysid="2">39.00</trlTax>
+        <trlRate cat="Tax-12" sysid="2">5.600</trlRate>
+      </trlTaxes>
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <taxableRebate cat="Tax-11" sysid="1">5.00</taxableRebate>
+      </trlFlags>
+      <trlDept number="9996" type="norm">TEST B DEPT</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>2</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>19.50</trlUnitPrice>
+      <trlLineTot>39.00</trlLineTot>
+      <trlDesc>PLU-AF</trlDesc>
+      <trlUPC>00000000091169</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+    </trLine>
+    <trLine type="plu">
+      <trlTaxes />
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlNetVoid />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="2" type="norm">NON-TAXABLE</trlDept>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>2</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>10.00</trlUnitPrice>
+      <trlLineTot>20.00</trlLineTot>
+      <trlDesc>PLU-AA</trlDesc>
+      <trlUPC>00000000091114</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+    </trLine>
+    <trLine type="void plu">
+      <trlTaxes />
+      <trlFlags>
+        <trlPLU />
+        <trlNetVoid />
+      </trlFlags>
+      <trlDept number="2" type="norm">NON-TAXABLE</trlDept>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>2</trlQty>
+      <trlSign>-1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlVoidLineIx>3</trlVoidLineIx>
+      <trlUnitPrice>10.00</trlUnitPrice>
+      <trlLineTot>-20.00</trlLineTot>
+      <trlDesc>PLU-AA</trlDesc>
+      <trlUPC>00000000091114</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>100.00</trpAmt>
+    </trPayline>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="0" mop="1" nacstendercode="generic" nacstendersubcode="generic">Change</trpPaycode>
+      <trpAmt>-1.08</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

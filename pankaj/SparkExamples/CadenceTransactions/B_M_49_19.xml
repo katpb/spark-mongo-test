@@ -1,0 +1,70 @@
+<trans type="sale" recalled="false">
+  <trHeader>
+    <termMsgSN type="FINANCIAL" term="101">186</termMsgSN>
+    <trTickNum>
+      <posNum>101</posNum>
+      <trSeq>1010186</trSeq>
+    </trTickNum>
+    <trUniqueSN>201</trUniqueSN>
+    <period level="0" seq="19" name="HOUR" />
+    <period level="1" seq="5" name="Shift" />
+    <period level="2" seq="5" name="Day" />
+    <date>2018-02-06T19:52:07-05:00</date>
+    <duration>2</duration>
+    <till>1</till>
+    <cashier sysid="1" empNum="1" posNum="101" period="5" drawer="1">CORPORATE</cashier>
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>36.00</trTotNoTax>
+    <trTotWTax>39.29</trTotWTax>
+    <trTotTax>3.29</trTotTax>
+    <trTax>
+      <taxAmts>
+        <taxAmt sysid="6" cat="Tax-16">36.00</taxAmt>
+        <taxRate sysid="6" cat="Tax-16">9.125</taxRate>
+        <taxNet sysid="6" cat="Tax-16">3.29</taxNet>
+        <taxAttribute sysid="6" cat="Tax-16">0</taxAttribute>
+      </taxAmts>
+    </trTax>
+    <trCurrTot locale="USD">39.29</trCurrTot>
+    <trSTotalizer>39.29</trSTotalizer>
+    <trGTotalizer>39.29</trGTotalizer>
+  </trValue>
+  <trLines>
+    <trLine type="plu">
+      <trlTaxes>
+        <trlTax sysid="6" cat="Tax-16" reverse="0">36.00</trlTax>
+        <trlRate sysid="6" cat="Tax-16">9.125</trlRate>
+      </trlTaxes>
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+      </trlFlags>
+      <trlDept number="9995" type="norm">TEST A DEPT</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>400</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>36.00</trlUnitPrice>
+      <trlLineTot>36.00</trlLineTot>
+      <trlDesc>PLU-AP</trlDesc>
+      <trlUPC>00000000091268</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline type="sale" sysid="1" locale="DOLLAR">
+      <trpPaycode mop="1" cat="0" nacstendercode="generic" nacstendersubcode="generic">CASH</trpPaycode>
+      <trpAmt>45.00</trpAmt>
+    </trPayline>
+    <trPayline type="sale" sysid="1" locale="DOLLAR">
+      <trpPaycode mop="1" cat="0" nacstendercode="generic" nacstendersubcode="generic">Change</trpPaycode>
+      <trpAmt>-5.71</trpAmt>
+    </trPayline>
+  </trPaylines>
+</trans>

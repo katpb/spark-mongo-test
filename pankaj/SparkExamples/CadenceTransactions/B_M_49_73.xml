@@ -1,0 +1,116 @@
+<trans recalled="false" type="network sale">
+  <trHeader>
+    <termMsgSN term="901" type="FINANCIAL">90117</termMsgSN>
+    <trTickNum>
+      <posNum>901</posNum>
+      <trSeq>9010008</trSeq>
+    </trTickNum>
+    <trUniqueSN>165</trUniqueSN>
+    <period level="0" name="HOUR" seq="12" />
+    <period level="1" name="Shift" seq="4" />
+    <period level="2" name="Day" seq="4" />
+    <date>2018-09-27T12:57:11-04:00</date>
+    <duration>37</duration>
+    <till>1</till>
+    <cashier drawer="1" empNum="" period="0" posNum="901" sysid="0" />
+    <storeNumber>CL120</storeNumber>
+  </trHeader>
+  <trValue>
+    <trTotNoTax>17.73</trTotNoTax>
+    <trTotWTax>17.98</trTotWTax>
+    <trTotTax>0.25</trTotTax>
+    <trTax>
+      <taxAmts>
+        <taxAmt cat="Tax-11" sysid="1">5.00</taxAmt>
+        <taxRate cat="Tax-11" sysid="1">5.000</taxRate>
+        <taxNet cat="Tax-11" sysid="1">0.25</taxNet>
+        <taxAttribute cat="Tax-11" sysid="1">0</taxAttribute>
+      </taxAmts>
+    </trTax>
+    <trCurrTot locale="USD">17.98</trCurrTot>
+    <trSTotalizer>17.98</trSTotalizer>
+    <trGTotalizer>17.98</trGTotalizer>
+  </trValue>
+  <trExNetProds>
+    <trExNetProd>
+      <trENPPcode>950</trENPPcode>
+      <trENPAmount>0.25</trENPAmount>
+      <trENPItemCnt>1</trENPItemCnt>
+    </trExNetProd>
+  </trExNetProds>
+  <trLines>
+    <trLine type="plu">
+      <trlTaxes>
+        <trlTax cat="Tax-11" reverse="0" sysid="1">5.00</trlTax>
+        <trlRate cat="Tax-11" sysid="1">5.000</trlRate>
+      </trlTaxes>
+      <trlFlags>
+        <trlPLU />
+        <trlUpdPluCust />
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="4545" type="norm">CAR-WASH-DEPT</trlDept>
+      <trlCat number="9995">TEST MDSE</trlCat>
+      <trlNetwCode>102</trlNetwCode>
+      <trlQty>1</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlSellUnit>1.000</trlSellUnit>
+      <trlUnitPrice>5.00</trlUnitPrice>
+      <trlLineTot>5.00</trlLineTot>
+      <trlDesc>CAR-WASH-PLU-1</trlDesc>
+      <trlUPC>00000000066662</trlUPC>
+      <trlModifier>000</trlModifier>
+      <trlUPCEntry type="manual" />
+      <trlCw>
+        <trlCwLineIx>1</trlCwLineIx>
+        <trlCwCode>92743</trlCwCode>
+      </trlCw>
+    </trLine>
+    <trLine type="postFuel">
+      <trlTaxes />
+      <trlFlags>
+        <trlUpdDepCust />
+        <trlCatCust />
+        <trlFuelSale />
+      </trlFlags>
+      <trlDept number="9998" type="fuel">MANUAL FUEL DEPT</trlDept>
+      <trlCat number="9994">FUEL</trlCat>
+      <trlNetwCode>1</trlNetwCode>
+      <trlQty>11.356</trlQty>
+      <trlSign>1.00</trlSign>
+      <trlUnitPrice>1.121</trlUnitPrice>
+      <trlLineTot>12.73</trlLineTot>
+      <trlFuel type="norm">
+        <trlFuelSeq>9</trlFuelSeq>
+        <fuelPosition>1</fuelPosition>
+        <trlFuelDepst>0.00</trlFuelDepst>
+        <fuelProd NAXMLFuelGradeID="1" sysid="1">PETR-UNLD1</fuelProd>
+        <fuelSvcMode sysid="1">SELF</fuelSvcMode>
+        <fuelMOP sysid="2">CREDIT</fuelMOP>
+        <fuelVolume>11.356</fuelVolume>
+        <basePrice>1.121</basePrice>
+      </trlFuel>
+      <trlDesc>PETR-UNLD1 CR #01</trlDesc>
+    </trLine>
+  </trLines>
+  <trPaylines>
+    <trPayline locale="DOLLAR" sysid="1" type="sale">
+      <trpPaycode cat="1" mop="3" nacstendercode="generic" nacstendersubcode="generic">CREDIT</trpPaycode>
+      <trpAmt>17.98</trpAmt>
+      <trpCardInfo isAboveSite="false">
+        <trpcAccount>401280FFF0067</trpcAccount>
+        <trpcCCName sysid="0">VISA</trpcCCName>
+        <trpcHostID>buypass</trpcHostID>
+        <trpcAuthCode>987650</trpcAuthCode>
+        <trpcAuthSrc />
+        <trpcTicket>987650</trpcTicket>
+        <trpcEntryMeth>Swipe</trpcEntryMeth>
+        <trpcBatchNr>5</trpcBatchNr>
+        <trpcSeqNr>1071</trpcSeqNr>
+        <trpcAuthDateTime>2018-09-27T12:57:11-04:00</trpcAuthDateTime>
+      </trpCardInfo>
+    </trPayline>
+  </trPaylines>
+</trans>
