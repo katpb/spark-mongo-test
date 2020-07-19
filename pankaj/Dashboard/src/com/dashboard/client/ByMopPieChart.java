@@ -9,10 +9,16 @@ import com.googlecode.gwt.charts.client.ChartLoader;
 import com.googlecode.gwt.charts.client.ChartPackage;
 import com.googlecode.gwt.charts.client.ColumnType;
 import com.googlecode.gwt.charts.client.DataTable;
+import com.googlecode.gwt.charts.client.corechart.ComboChart;
+import com.googlecode.gwt.charts.client.corechart.ComboChartOptions;
 import com.googlecode.gwt.charts.client.corechart.PieChart;
+import com.googlecode.gwt.charts.client.options.HAxis;
+import com.googlecode.gwt.charts.client.options.SeriesType;
+import com.googlecode.gwt.charts.client.options.VAxis;
 
 public class ByMopPieChart {
 	PieChart mopChart;
+	ComboChart barChart;
 	HTMLPanel mainPanel = new HTMLPanel("");
 	boolean flag;
 	
@@ -44,10 +50,9 @@ public class ByMopPieChart {
 		data.addRow("Cupon", 500);
 		data.addRow("XYZ", 600);
 		data.addRow("abc", 700);
-		mopChart.clearChart();
 		mopChart.draw(data);
 		GWT.log("Done");
-		flag = true;
+		flag = false;
 		
 	}
 	
@@ -61,10 +66,15 @@ public class ByMopPieChart {
 		data.addRow("Credit", 200);
 		data.addRow("Debit", 300);
 		data.addRow("Cupon", 500);
-		mopChart.clearChart();
-		mopChart.draw(data);
+		
+		ComboChartOptions options = ComboChartOptions.create();
+		options.setTitle("Credit card utilization");
+		options.setHAxis(HAxis.create("Card Name"));
+		options.setVAxis(VAxis.create("Total Amount"));
+		options.setSeriesType(SeriesType.BARS);
+		barChart.draw(data, options);
 		GWT.log("Done");
-		flag = false;
+		flag = true;
 		
 	}
 	
@@ -86,9 +96,7 @@ public class ByMopPieChart {
 			public void run() {
 				
 				// Create and attach the chart
-				mopChart = new PieChart();
-				mopChart.clearChart();
-				
+				mopChart = new PieChart();				
 				drawPieChart();
 				//mainPanel.clear();
 				mainPanel.add(mopChart);
@@ -108,20 +116,30 @@ public class ByMopPieChart {
 					@Override
 					public void run() {
 						// Create and attach the chart
-						mainPanel.remove(mopChart);
-						mopChart = new PieChart();
-						mopChart.clearChart();
-						if (flag) {
-							drawPieChart2();
-						} else {
-							drawPieChart();
+						if (mopChart != null) {
+							mopChart.clearChart();
+							mainPanel.remove(mopChart);
+							GWT.log("Remove pie chart");
+						} 
+						if (barChart != null) {
+							barChart.clearChart();
+							mainPanel.remove(barChart);
 						}
-						//mainPanel.clear();
+						if (flag) {
 						
-						mainPanel.add(mopChart);
-						RunChart.getInstance().notifyDone();
+							mopChart = new PieChart();
+							
+							drawPieChart();
+							mainPanel.add(mopChart);
+						} else {
+							barChart = new ComboChart();
+							drawPieChart2();
+							mainPanel.add(barChart);
+						}
 						
+						RunChart.getInstance().notifyDone();	
 					}
+						
 				};
 				obj.setCorechart(ChartPackage.CORECHART);
 				obj.setRunnable(run);
